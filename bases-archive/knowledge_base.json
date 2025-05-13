@@ -1,0 +1,405 @@
+{
+    "Fungal infection": {
+        "itching": 1.0,
+        "skin_rash": 1.0,
+        "nodal_skin_eruptions": 1.0,
+        "dischromic _patches": 1.0
+    },
+    "Allergy": {
+        "continuous_sneezing": 1.0,
+        "shivering": 1.0,
+        "chills": 1.0,
+        "watering_from_eyes": 1.0
+    },
+    "GERD": {
+        "stomach_pain": 1.0,
+        "acidity": 1.0,
+        "ulcers_on_tongue": 1.0,
+        "vomiting": 1.0,
+        "cough": 1.0,
+        "chest_pain": 1.0
+    },
+    "Chronic cholestasis": {
+        "itching": 1.0,
+        "vomiting": 1.0,
+        "yellowish_skin": 1.0,
+        "nausea": 1.0,
+        "loss_of_appetite": 1.0,
+        "abdominal_pain": 1.0,
+        "yellowing_of_eyes": 1.0
+    },
+    "Drug Reaction": {
+        "itching": 1.0,
+        "skin_rash": 1.0,
+        "stomach_pain": 1.0,
+        "burning_micturition": 1.0,
+        "spotting_ urination": 1.0
+    },
+    "Peptic ulcer diseae": {
+        "vomiting": 1.0,
+        "loss_of_appetite": 1.0,
+        "abdominal_pain": 1.0,
+        "passage_of_gases": 1.0,
+        "internal_itching": 1.0,
+        "indigestion": 1.0
+    },
+    "AIDS": {
+        "muscle_wasting": 1.0,
+        "patches_in_throat": 1.0,
+        "high_fever": 1.0,
+        "extra_marital_contacts": 1.0
+    },
+    "Diabetes ": {
+        "fatigue": 1.0,
+        "weight_loss": 1.0,
+        "restlessness": 1.0,
+        "lethargy": 1.0,
+        "irregular_sugar_level": 1.0,
+        "blurred_and_distorted_vision": 1.0,
+        "obesity": 1.0,
+        "excessive_hunger": 1.0,
+        "increased_appetite": 1.0,
+        "polyuria": 1.0
+    },
+    "Gastroenteritis": {
+        "vomiting": 1.0,
+        "sunken_eyes": 1.0,
+        "dehydration": 1.0,
+        "diarrhoea": 1.0
+    },
+    "Bronchial Asthma": {
+        "fatigue": 1.0,
+        "cough": 1.0,
+        "high_fever": 1.0,
+        "breathlessness": 1.0,
+        "family_history": 1.0,
+        "mucoid_sputum": 1.0
+    },
+    "Hypertension ": {
+        "headache": 1.0,
+        "chest_pain": 1.0,
+        "dizziness": 1.0,
+        "loss_of_balance": 1.0,
+        "lack_of_concentration": 1.0
+    },
+    "Migraine": {
+        "acidity": 1.0,
+        "indigestion": 1.0,
+        "headache": 1.0,
+        "blurred_and_distorted_vision": 1.0,
+        "excessive_hunger": 1.0,
+        "stiff_neck": 1.0,
+        "depression": 1.0,
+        "irritability": 1.0,
+        "visual_disturbances": 1.0
+    },
+    "Cervical spondylosis": {
+        "back_pain": 1.0,
+        "weakness_in_limbs": 1.0,
+        "neck_pain": 1.0,
+        "dizziness": 1.0,
+        "loss_of_balance": 1.0
+    },
+    "Paralysis (brain hemorrhage)": {
+        "vomiting": 1.0,
+        "headache": 1.0,
+        "weakness_of_one_body_side": 1.0,
+        "altered_sensorium": 1.0
+    },
+    "Jaundice": {
+        "itching": 1.0,
+        "vomiting": 1.0,
+        "fatigue": 1.0,
+        "weight_loss": 1.0,
+        "high_fever": 1.0,
+        "yellowish_skin": 1.0,
+        "dark_urine": 1.0,
+        "abdominal_pain": 1.0
+    },
+    "Malaria": {
+        "chills": 1.0,
+        "vomiting": 1.0,
+        "high_fever": 1.0,
+        "sweating": 1.0,
+        "headache": 1.0,
+        "nausea": 1.0,
+        "muscle_pain": 1.0,
+        "diarrhoea": 1.0
+    },
+    "Chicken pox": {
+        "itching": 1.0,
+        "skin_rash": 1.0,
+        "fatigue": 1.0,
+        "lethargy": 1.0,
+        "high_fever": 1.0,
+        "headache": 1.0,
+        "loss_of_appetite": 1.0,
+        "mild_fever": 1.0,
+        "swelled_lymph_nodes": 1.0,
+        "malaise": 1.0,
+        "red_spots_over_body": 1.0
+    },
+    "Dengue": {
+        "skin_rash": 1.0,
+        "chills": 1.0,
+        "joint_pain": 1.0,
+        "vomiting": 1.0,
+        "fatigue": 1.0,
+        "high_fever": 1.0,
+        "headache": 1.0,
+        "nausea": 1.0,
+        "loss_of_appetite": 1.0,
+        "pain_behind_the_eyes": 1.0,
+        "back_pain": 1.0,
+        "muscle_pain": 1.0,
+        "red_spots_over_body": 1.0,
+        "malaise": 1.0
+    },
+    "Typhoid": {
+        "chills": 1.0,
+        "vomiting": 1.0,
+        "fatigue": 1.0,
+        "high_fever": 1.0,
+        "nausea": 1.0,
+        "constipation": 1.0,
+        "abdominal_pain": 1.0,
+        "diarrhoea": 1.0,
+        "toxic_look_(typhos)": 1.0,
+        "belly_pain": 1.0,
+        "headache": 1.0
+    },
+    "hepatitis A": {
+        "joint_pain": 1.0,
+        "vomiting": 1.0,
+        "yellowish_skin": 1.0,
+        "dark_urine": 1.0,
+        "nausea": 1.0,
+        "loss_of_appetite": 1.0,
+        "abdominal_pain": 1.0,
+        "diarrhoea": 1.0,
+        "mild_fever": 1.0,
+        "yellowing_of_eyes": 1.0,
+        "muscle_pain": 1.0
+    },
+    "Hepatitis B": {
+        "itching": 1.0,
+        "fatigue": 1.0,
+        "lethargy": 1.0,
+        "yellowish_skin": 1.0,
+        "dark_urine": 1.0,
+        "loss_of_appetite": 1.0,
+        "abdominal_pain": 1.0,
+        "yellow_urine": 1.0,
+        "yellowing_of_eyes": 1.0,
+        "malaise": 1.0,
+        "receiving_blood_transfusion": 1.0,
+        "receiving_unsterile_injections": 1.0
+    },
+    "Hepatitis C": {
+        "fatigue": 1.0,
+        "yellowish_skin": 1.0,
+        "nausea": 1.0,
+        "loss_of_appetite": 1.0,
+        "family_history": 1.0,
+        "yellowing_of_eyes": 1.0
+    },
+    "Hepatitis D": {
+        "joint_pain": 1.0,
+        "vomiting": 1.0,
+        "fatigue": 1.0,
+        "yellowish_skin": 1.0,
+        "dark_urine": 1.0,
+        "nausea": 1.0,
+        "loss_of_appetite": 1.0,
+        "abdominal_pain": 1.0,
+        "yellowing_of_eyes": 1.0
+    },
+    "Hepatitis E": {
+        "joint_pain": 1.0,
+        "vomiting": 1.0,
+        "fatigue": 1.0,
+        "high_fever": 1.0,
+        "yellowish_skin": 1.0,
+        "dark_urine": 1.0,
+        "nausea": 1.0,
+        "loss_of_appetite": 1.0,
+        "abdominal_pain": 1.0,
+        "yellowing_of_eyes": 1.0,
+        "coma": 1.0,
+        "stomach_bleeding": 1.0,
+        "acute_liver_failure": 1.0
+    },
+    "Alcoholic hepatitis": {
+        "vomiting": 1.0,
+        "yellowish_skin": 1.0,
+        "abdominal_pain": 1.0,
+        "swelling_of_stomach": 1.0,
+        "distention_of_abdomen": 1.0,
+        "history_of_alcohol_consumption": 1.0,
+        "fluid_overload": 1.0
+    },
+    "Tuberculosis": {
+        "chills": 1.0,
+        "vomiting": 1.0,
+        "fatigue": 1.0,
+        "weight_loss": 1.0,
+        "cough": 1.0,
+        "high_fever": 1.0,
+        "breathlessness": 1.0,
+        "sweating": 1.0,
+        "loss_of_appetite": 1.0,
+        "mild_fever": 1.0,
+        "yellowing_of_eyes": 1.0,
+        "swelled_lymph_nodes": 1.0,
+        "malaise": 1.0,
+        "phlegm": 1.0,
+        "chest_pain": 1.0,
+        "blood_in_sputum": 1.0
+    },
+    "Common Cold": {
+        "continuous_sneezing": 1.0,
+        "chills": 1.0,
+        "fatigue": 1.0,
+        "cough": 1.0,
+        "high_fever": 1.0,
+        "headache": 1.0,
+        "swelled_lymph_nodes": 1.0,
+        "malaise": 1.0,
+        "phlegm": 1.0,
+        "throat_irritation": 1.0,
+        "redness_of_eyes": 1.0,
+        "sinus_pressure": 1.0,
+        "runny_nose": 1.0,
+        "congestion": 1.0,
+        "chest_pain": 1.0,
+        "loss_of_smell": 1.0,
+        "muscle_pain": 1.0
+    },
+    "Pneumonia": {
+        "chills": 1.0,
+        "fatigue": 1.0,
+        "cough": 1.0,
+        "high_fever": 1.0,
+        "breathlessness": 1.0,
+        "sweating": 1.0,
+        "malaise": 1.0,
+        "chest_pain": 1.0,
+        "fast_heart_rate": 1.0,
+        "rusty_sputum": 1.0,
+        "phlegm": 1.0
+    },
+    "Dimorphic hemmorhoids(piles)": {
+        "constipation": 1.0,
+        "pain_during_bowel_movements": 1.0,
+        "pain_in_anal_region": 1.0,
+        "bloody_stool": 1.0,
+        "irritation_in_anus": 1.0
+    },
+    "Heart attack": {
+        "vomiting": 1.0,
+        "breathlessness": 1.0,
+        "sweating": 1.0,
+        "chest_pain": 1.0
+    },
+    "Varicose veins": {
+        "fatigue": 1.0,
+        "cramps": 1.0,
+        "bruising": 1.0,
+        "obesity": 1.0,
+        "swollen_legs": 1.0,
+        "swollen_blood_vessels": 1.0,
+        "prominent_veins_on_calf": 1.0
+    },
+    "Hypothyroidism": {
+        "fatigue": 1.0,
+        "weight_gain": 1.0,
+        "cold_hands_and_feets": 1.0,
+        "mood_swings": 1.0,
+        "lethargy": 1.0,
+        "dizziness": 1.0,
+        "puffy_face_and_eyes": 1.0,
+        "enlarged_thyroid": 1.0,
+        "brittle_nails": 1.0,
+        "swollen_extremeties": 1.0,
+        "depression": 1.0,
+        "irritability": 1.0,
+        "abnormal_menstruation": 1.0
+    },
+    "Hyperthyroidism": {
+        "fatigue": 1.0,
+        "mood_swings": 1.0,
+        "weight_loss": 1.0,
+        "restlessness": 1.0,
+        "sweating": 1.0,
+        "diarrhoea": 1.0,
+        "fast_heart_rate": 1.0,
+        "excessive_hunger": 1.0,
+        "muscle_weakness": 1.0,
+        "irritability": 1.0,
+        "abnormal_menstruation": 1.0
+    },
+    "Hypoglycemia": {
+        "vomiting": 1.0,
+        "fatigue": 1.0,
+        "anxiety": 1.0,
+        "sweating": 1.0,
+        "headache": 1.0,
+        "nausea": 1.0,
+        "blurred_and_distorted_vision": 1.0,
+        "excessive_hunger": 1.0,
+        "slurred_speech": 1.0,
+        "irritability": 1.0,
+        "palpitations": 1.0,
+        "drying_and_tingling_lips": 1.0
+    },
+    "Osteoarthristis": {
+        "joint_pain": 1.0,
+        "neck_pain": 1.0,
+        "knee_pain": 1.0,
+        "hip_joint_pain": 1.0,
+        "swelling_joints": 1.0,
+        "painful_walking": 1.0
+    },
+    "Arthritis": {
+        "muscle_weakness": 1.0,
+        "stiff_neck": 1.0,
+        "swelling_joints": 1.0,
+        "movement_stiffness": 1.0,
+        "painful_walking": 1.0
+    },
+    "(vertigo) Paroymsal  Positional Vertigo": {
+        "vomiting": 1.0,
+        "headache": 1.0,
+        "nausea": 1.0,
+        "spinning_movements": 1.0,
+        "loss_of_balance": 1.0,
+        "unsteadiness": 1.0
+    },
+    "Acne": {
+        "skin_rash": 1.0,
+        "pus_filled_pimples": 1.0,
+        "blackheads": 1.0,
+        "scurring": 1.0
+    },
+    "Urinary tract infection": {
+        "burning_micturition": 1.0,
+        "bladder_discomfort": 1.0,
+        "foul_smell_of urine": 1.0,
+        "continuous_feel_of_urine": 1.0
+    },
+    "Psoriasis": {
+        "skin_rash": 1.0,
+        "joint_pain": 1.0,
+        "skin_peeling": 1.0,
+        "silver_like_dusting": 1.0,
+        "small_dents_in_nails": 1.0,
+        "inflammatory_nails": 1.0
+    },
+    "Impetigo": {
+        "skin_rash": 1.0,
+        "high_fever": 1.0,
+        "blister": 1.0,
+        "red_sore_around_nose": 1.0,
+        "yellow_crust_ooze": 1.0
+    }
+}
