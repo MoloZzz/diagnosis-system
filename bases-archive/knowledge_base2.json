@@ -1,0 +1,1491 @@
+[
+  {
+    "disease": "Fungal infection",
+    "symptoms": [
+      {
+        "name": "itching",
+        "weight": 0.9
+      },
+      {
+        "name": "skin_rash",
+        "weight": 0.9
+      },
+      {
+        "name": "nodal_skin_eruptions",
+        "weight": 0.9
+      },
+      {
+        "name": "dischromic _patches",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "disease": "Allergy",
+    "symptoms": [
+      {
+        "name": "continuous_sneezing",
+        "weight": 0.9
+      },
+      {
+        "name": "shivering",
+        "weight": 0.9
+      },
+      {
+        "name": "chills",
+        "weight": 0.9
+      },
+      {
+        "name": "watering_from_eyes",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "disease": "GERD",
+    "symptoms": [
+      {
+        "name": "stomach_pain",
+        "weight": 0.95
+      },
+      {
+        "name": "acidity",
+        "weight": 0.9
+      },
+      {
+        "name": "ulcers_on_tongue",
+        "weight": 0.9
+      },
+      {
+        "name": "vomiting",
+        "weight": 0.9
+      },
+      {
+        "name": "cough",
+        "weight": 0.95
+      },
+      {
+        "name": "chest_pain",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "disease": "Chronic cholestasis",
+    "symptoms": [
+      {
+        "name": "itching",
+        "weight": 0.95
+      },
+      {
+        "name": "vomiting",
+        "weight": 0.95
+      },
+      {
+        "name": "yellowish_skin",
+        "weight": 0.95
+      },
+      {
+        "name": "nausea",
+        "weight": 0.95
+      },
+      {
+        "name": "loss_of_appetite",
+        "weight": 0.95
+      },
+      {
+        "name": "abdominal_pain",
+        "weight": 0.95
+      },
+      {
+        "name": "yellowing_of_eyes",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "disease": "Drug Reaction",
+    "symptoms": [
+      {
+        "name": "itching",
+        "weight": 0.95
+      },
+      {
+        "name": "skin_rash",
+        "weight": 0.9
+      },
+      {
+        "name": "stomach_pain",
+        "weight": 0.9
+      },
+      {
+        "name": "burning_micturition",
+        "weight": 0.9
+      },
+      {
+        "name": "spotting_ urination",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "disease": "Peptic ulcer diseae",
+    "symptoms": [
+      {
+        "name": "vomiting",
+        "weight": 0.95
+      },
+      {
+        "name": "loss_of_appetite",
+        "weight": 0.9
+      },
+      {
+        "name": "abdominal_pain",
+        "weight": 0.95
+      },
+      {
+        "name": "passage_of_gases",
+        "weight": 0.95
+      },
+      {
+        "name": "internal_itching",
+        "weight": 0.95
+      },
+      {
+        "name": "indigestion",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "disease": "AIDS",
+    "symptoms": [
+      {
+        "name": "muscle_wasting",
+        "weight": 0.9
+      },
+      {
+        "name": "patches_in_throat",
+        "weight": 0.9
+      },
+      {
+        "name": "high_fever",
+        "weight": 0.95
+      },
+      {
+        "name": "extra_marital_contacts",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "disease": "Diabetes ",
+    "symptoms": [
+      {
+        "name": "fatigue",
+        "weight": 0.95
+      },
+      {
+        "name": "weight_loss",
+        "weight": 0.95
+      },
+      {
+        "name": "restlessness",
+        "weight": 0.95
+      },
+      {
+        "name": "lethargy",
+        "weight": 0.95
+      },
+      {
+        "name": "irregular_sugar_level",
+        "weight": 0.95
+      },
+      {
+        "name": "blurred_and_distorted_vision",
+        "weight": 0.95
+      },
+      {
+        "name": "obesity",
+        "weight": 0.95
+      },
+      {
+        "name": "excessive_hunger",
+        "weight": 0.95
+      },
+      {
+        "name": "increased_appetite",
+        "weight": 1.0
+      },
+      {
+        "name": "polyuria",
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "disease": "Gastroenteritis",
+    "symptoms": [
+      {
+        "name": "vomiting",
+        "weight": 0.9
+      },
+      {
+        "name": "sunken_eyes",
+        "weight": 0.9
+      },
+      {
+        "name": "dehydration",
+        "weight": 0.9
+      },
+      {
+        "name": "diarrhoea",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "disease": "Bronchial Asthma",
+    "symptoms": [
+      {
+        "name": "fatigue",
+        "weight": 0.9
+      },
+      {
+        "name": "cough",
+        "weight": 0.9
+      },
+      {
+        "name": "high_fever",
+        "weight": 0.95
+      },
+      {
+        "name": "breathlessness",
+        "weight": 0.95
+      },
+      {
+        "name": "family_history",
+        "weight": 0.95
+      },
+      {
+        "name": "mucoid_sputum",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "disease": "Hypertension ",
+    "symptoms": [
+      {
+        "name": "headache",
+        "weight": 0.9
+      },
+      {
+        "name": "chest_pain",
+        "weight": 0.9
+      },
+      {
+        "name": "dizziness",
+        "weight": 0.9
+      },
+      {
+        "name": "loss_of_balance",
+        "weight": 0.95
+      },
+      {
+        "name": "lack_of_concentration",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "disease": "Migraine",
+    "symptoms": [
+      {
+        "name": "acidity",
+        "weight": 0.95
+      },
+      {
+        "name": "indigestion",
+        "weight": 0.95
+      },
+      {
+        "name": "headache",
+        "weight": 0.95
+      },
+      {
+        "name": "blurred_and_distorted_vision",
+        "weight": 0.95
+      },
+      {
+        "name": "excessive_hunger",
+        "weight": 0.95
+      },
+      {
+        "name": "stiff_neck",
+        "weight": 0.95
+      },
+      {
+        "name": "depression",
+        "weight": 0.95
+      },
+      {
+        "name": "irritability",
+        "weight": 0.95
+      },
+      {
+        "name": "visual_disturbances",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "disease": "Cervical spondylosis",
+    "symptoms": [
+      {
+        "name": "back_pain",
+        "weight": 0.9
+      },
+      {
+        "name": "weakness_in_limbs",
+        "weight": 0.9
+      },
+      {
+        "name": "neck_pain",
+        "weight": 0.95
+      },
+      {
+        "name": "dizziness",
+        "weight": 0.95
+      },
+      {
+        "name": "loss_of_balance",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "disease": "Paralysis (brain hemorrhage)",
+    "symptoms": [
+      {
+        "name": "vomiting",
+        "weight": 0.9
+      },
+      {
+        "name": "headache",
+        "weight": 0.9
+      },
+      {
+        "name": "weakness_of_one_body_side",
+        "weight": 0.9
+      },
+      {
+        "name": "altered_sensorium",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "disease": "Jaundice",
+    "symptoms": [
+      {
+        "name": "itching",
+        "weight": 0.95
+      },
+      {
+        "name": "vomiting",
+        "weight": 0.95
+      },
+      {
+        "name": "fatigue",
+        "weight": 0.95
+      },
+      {
+        "name": "weight_loss",
+        "weight": 0.95
+      },
+      {
+        "name": "high_fever",
+        "weight": 0.95
+      },
+      {
+        "name": "yellowish_skin",
+        "weight": 0.95
+      },
+      {
+        "name": "dark_urine",
+        "weight": 0.95
+      },
+      {
+        "name": "abdominal_pain",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "disease": "Malaria",
+    "symptoms": [
+      {
+        "name": "chills",
+        "weight": 0.95
+      },
+      {
+        "name": "vomiting",
+        "weight": 0.95
+      },
+      {
+        "name": "high_fever",
+        "weight": 0.95
+      },
+      {
+        "name": "sweating",
+        "weight": 0.95
+      },
+      {
+        "name": "headache",
+        "weight": 0.95
+      },
+      {
+        "name": "nausea",
+        "weight": 0.95
+      },
+      {
+        "name": "muscle_pain",
+        "weight": 1.0
+      },
+      {
+        "name": "diarrhoea",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "disease": "Chicken pox",
+    "symptoms": [
+      {
+        "name": "itching",
+        "weight": 0.95
+      },
+      {
+        "name": "skin_rash",
+        "weight": 0.95
+      },
+      {
+        "name": "fatigue",
+        "weight": 0.95
+      },
+      {
+        "name": "lethargy",
+        "weight": 0.95
+      },
+      {
+        "name": "high_fever",
+        "weight": 0.95
+      },
+      {
+        "name": "headache",
+        "weight": 0.95
+      },
+      {
+        "name": "loss_of_appetite",
+        "weight": 0.95
+      },
+      {
+        "name": "mild_fever",
+        "weight": 0.95
+      },
+      {
+        "name": "swelled_lymph_nodes",
+        "weight": 0.95
+      },
+      {
+        "name": "malaise",
+        "weight": 1.0
+      },
+      {
+        "name": "red_spots_over_body",
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "disease": "Dengue",
+    "symptoms": [
+      {
+        "name": "skin_rash",
+        "weight": 0.95
+      },
+      {
+        "name": "chills",
+        "weight": 0.95
+      },
+      {
+        "name": "joint_pain",
+        "weight": 0.95
+      },
+      {
+        "name": "vomiting",
+        "weight": 0.95
+      },
+      {
+        "name": "fatigue",
+        "weight": 0.95
+      },
+      {
+        "name": "high_fever",
+        "weight": 0.95
+      },
+      {
+        "name": "headache",
+        "weight": 1.0
+      },
+      {
+        "name": "nausea",
+        "weight": 1.0
+      },
+      {
+        "name": "loss_of_appetite",
+        "weight": 1.0
+      },
+      {
+        "name": "pain_behind_the_eyes",
+        "weight": 1.0
+      },
+      {
+        "name": "back_pain",
+        "weight": 1.0
+      },
+      {
+        "name": "muscle_pain",
+        "weight": 0.95
+      },
+      {
+        "name": "red_spots_over_body",
+        "weight": 0.95
+      },
+      {
+        "name": "malaise",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "disease": "Typhoid",
+    "symptoms": [
+      {
+        "name": "chills",
+        "weight": 1.0
+      },
+      {
+        "name": "vomiting",
+        "weight": 0.95
+      },
+      {
+        "name": "fatigue",
+        "weight": 1.0
+      },
+      {
+        "name": "high_fever",
+        "weight": 1.0
+      },
+      {
+        "name": "nausea",
+        "weight": 0.95
+      },
+      {
+        "name": "constipation",
+        "weight": 0.95
+      },
+      {
+        "name": "abdominal_pain",
+        "weight": 0.95
+      },
+      {
+        "name": "diarrhoea",
+        "weight": 0.95
+      },
+      {
+        "name": "toxic_look_(typhos)",
+        "weight": 0.95
+      },
+      {
+        "name": "belly_pain",
+        "weight": 0.95
+      },
+      {
+        "name": "headache",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "disease": "hepatitis A",
+    "symptoms": [
+      {
+        "name": "joint_pain",
+        "weight": 0.95
+      },
+      {
+        "name": "vomiting",
+        "weight": 0.95
+      },
+      {
+        "name": "yellowish_skin",
+        "weight": 0.95
+      },
+      {
+        "name": "dark_urine",
+        "weight": 0.95
+      },
+      {
+        "name": "nausea",
+        "weight": 0.95
+      },
+      {
+        "name": "loss_of_appetite",
+        "weight": 0.95
+      },
+      {
+        "name": "abdominal_pain",
+        "weight": 0.95
+      },
+      {
+        "name": "diarrhoea",
+        "weight": 0.95
+      },
+      {
+        "name": "mild_fever",
+        "weight": 1.0
+      },
+      {
+        "name": "yellowing_of_eyes",
+        "weight": 1.0
+      },
+      {
+        "name": "muscle_pain",
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "disease": "Hepatitis B",
+    "symptoms": [
+      {
+        "name": "itching",
+        "weight": 0.95
+      },
+      {
+        "name": "fatigue",
+        "weight": 0.95
+      },
+      {
+        "name": "lethargy",
+        "weight": 0.95
+      },
+      {
+        "name": "yellowish_skin",
+        "weight": 0.95
+      },
+      {
+        "name": "dark_urine",
+        "weight": 0.95
+      },
+      {
+        "name": "loss_of_appetite",
+        "weight": 0.95
+      },
+      {
+        "name": "abdominal_pain",
+        "weight": 0.95
+      },
+      {
+        "name": "yellow_urine",
+        "weight": 0.95
+      },
+      {
+        "name": "yellowing_of_eyes",
+        "weight": 1.0
+      },
+      {
+        "name": "malaise",
+        "weight": 1.0
+      },
+      {
+        "name": "receiving_blood_transfusion",
+        "weight": 1.0
+      },
+      {
+        "name": "receiving_unsterile_injections",
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "disease": "Hepatitis C",
+    "symptoms": [
+      {
+        "name": "fatigue",
+        "weight": 0.95
+      },
+      {
+        "name": "yellowish_skin",
+        "weight": 0.95
+      },
+      {
+        "name": "nausea",
+        "weight": 0.95
+      },
+      {
+        "name": "loss_of_appetite",
+        "weight": 0.95
+      },
+      {
+        "name": "family_history",
+        "weight": 0.95
+      },
+      {
+        "name": "yellowing_of_eyes",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "disease": "Hepatitis D",
+    "symptoms": [
+      {
+        "name": "joint_pain",
+        "weight": 0.95
+      },
+      {
+        "name": "vomiting",
+        "weight": 0.95
+      },
+      {
+        "name": "fatigue",
+        "weight": 0.95
+      },
+      {
+        "name": "yellowish_skin",
+        "weight": 0.95
+      },
+      {
+        "name": "dark_urine",
+        "weight": 0.95
+      },
+      {
+        "name": "nausea",
+        "weight": 0.95
+      },
+      {
+        "name": "loss_of_appetite",
+        "weight": 0.95
+      },
+      {
+        "name": "abdominal_pain",
+        "weight": 0.95
+      },
+      {
+        "name": "yellowing_of_eyes",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "disease": "Hepatitis E",
+    "symptoms": [
+      {
+        "name": "joint_pain",
+        "weight": 0.95
+      },
+      {
+        "name": "vomiting",
+        "weight": 0.95
+      },
+      {
+        "name": "fatigue",
+        "weight": 0.95
+      },
+      {
+        "name": "high_fever",
+        "weight": 0.95
+      },
+      {
+        "name": "yellowish_skin",
+        "weight": 0.95
+      },
+      {
+        "name": "dark_urine",
+        "weight": 0.95
+      },
+      {
+        "name": "nausea",
+        "weight": 0.95
+      },
+      {
+        "name": "loss_of_appetite",
+        "weight": 1.0
+      },
+      {
+        "name": "abdominal_pain",
+        "weight": 1.0
+      },
+      {
+        "name": "yellowing_of_eyes",
+        "weight": 1.0
+      },
+      {
+        "name": "coma",
+        "weight": 1.0
+      },
+      {
+        "name": "stomach_bleeding",
+        "weight": 1.0
+      },
+      {
+        "name": "acute_liver_failure",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "disease": "Alcoholic hepatitis",
+    "symptoms": [
+      {
+        "name": "vomiting",
+        "weight": 0.95
+      },
+      {
+        "name": "yellowish_skin",
+        "weight": 0.95
+      },
+      {
+        "name": "abdominal_pain",
+        "weight": 0.95
+      },
+      {
+        "name": "swelling_of_stomach",
+        "weight": 0.95
+      },
+      {
+        "name": "distention_of_abdomen",
+        "weight": 0.95
+      },
+      {
+        "name": "history_of_alcohol_consumption",
+        "weight": 0.95
+      },
+      {
+        "name": "fluid_overload",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "disease": "Tuberculosis",
+    "symptoms": [
+      {
+        "name": "chills",
+        "weight": 0.95
+      },
+      {
+        "name": "vomiting",
+        "weight": 0.95
+      },
+      {
+        "name": "fatigue",
+        "weight": 0.95
+      },
+      {
+        "name": "weight_loss",
+        "weight": 0.95
+      },
+      {
+        "name": "cough",
+        "weight": 0.95
+      },
+      {
+        "name": "high_fever",
+        "weight": 0.95
+      },
+      {
+        "name": "breathlessness",
+        "weight": 0.95
+      },
+      {
+        "name": "sweating",
+        "weight": 0.95
+      },
+      {
+        "name": "loss_of_appetite",
+        "weight": 1.0
+      },
+      {
+        "name": "mild_fever",
+        "weight": 1.0
+      },
+      {
+        "name": "yellowing_of_eyes",
+        "weight": 1.0
+      },
+      {
+        "name": "swelled_lymph_nodes",
+        "weight": 1.0
+      },
+      {
+        "name": "malaise",
+        "weight": 1.0
+      },
+      {
+        "name": "phlegm",
+        "weight": 1.0
+      },
+      {
+        "name": "chest_pain",
+        "weight": 1.0
+      },
+      {
+        "name": "blood_in_sputum",
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "disease": "Common Cold",
+    "symptoms": [
+      {
+        "name": "continuous_sneezing",
+        "weight": 0.95
+      },
+      {
+        "name": "chills",
+        "weight": 0.95
+      },
+      {
+        "name": "fatigue",
+        "weight": 0.95
+      },
+      {
+        "name": "cough",
+        "weight": 0.95
+      },
+      {
+        "name": "high_fever",
+        "weight": 0.95
+      },
+      {
+        "name": "headache",
+        "weight": 0.95
+      },
+      {
+        "name": "swelled_lymph_nodes",
+        "weight": 0.95
+      },
+      {
+        "name": "malaise",
+        "weight": 0.95
+      },
+      {
+        "name": "phlegm",
+        "weight": 1.0
+      },
+      {
+        "name": "throat_irritation",
+        "weight": 1.0
+      },
+      {
+        "name": "redness_of_eyes",
+        "weight": 1.0
+      },
+      {
+        "name": "sinus_pressure",
+        "weight": 1.0
+      },
+      {
+        "name": "runny_nose",
+        "weight": 1.0
+      },
+      {
+        "name": "congestion",
+        "weight": 1.0
+      },
+      {
+        "name": "chest_pain",
+        "weight": 1.0
+      },
+      {
+        "name": "loss_of_smell",
+        "weight": 1.0
+      },
+      {
+        "name": "muscle_pain",
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "disease": "Pneumonia",
+    "symptoms": [
+      {
+        "name": "chills",
+        "weight": 0.95
+      },
+      {
+        "name": "fatigue",
+        "weight": 0.95
+      },
+      {
+        "name": "cough",
+        "weight": 0.95
+      },
+      {
+        "name": "high_fever",
+        "weight": 0.95
+      },
+      {
+        "name": "breathlessness",
+        "weight": 0.95
+      },
+      {
+        "name": "sweating",
+        "weight": 0.95
+      },
+      {
+        "name": "malaise",
+        "weight": 0.95
+      },
+      {
+        "name": "chest_pain",
+        "weight": 1.0
+      },
+      {
+        "name": "fast_heart_rate",
+        "weight": 1.0
+      },
+      {
+        "name": "rusty_sputum",
+        "weight": 1.0
+      },
+      {
+        "name": "phlegm",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "disease": "Dimorphic hemmorhoids(piles)",
+    "symptoms": [
+      {
+        "name": "constipation",
+        "weight": 0.95
+      },
+      {
+        "name": "pain_during_bowel_movements",
+        "weight": 0.95
+      },
+      {
+        "name": "pain_in_anal_region",
+        "weight": 0.95
+      },
+      {
+        "name": "bloody_stool",
+        "weight": 0.95
+      },
+      {
+        "name": "irritation_in_anus",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "disease": "Heart attack",
+    "symptoms": [
+      {
+        "name": "vomiting",
+        "weight": 0.9
+      },
+      {
+        "name": "breathlessness",
+        "weight": 0.9
+      },
+      {
+        "name": "sweating",
+        "weight": 0.9
+      },
+      {
+        "name": "chest_pain",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "disease": "Varicose veins",
+    "symptoms": [
+      {
+        "name": "fatigue",
+        "weight": 0.95
+      },
+      {
+        "name": "cramps",
+        "weight": 0.95
+      },
+      {
+        "name": "bruising",
+        "weight": 0.95
+      },
+      {
+        "name": "obesity",
+        "weight": 0.95
+      },
+      {
+        "name": "swollen_legs",
+        "weight": 0.95
+      },
+      {
+        "name": "swollen_blood_vessels",
+        "weight": 0.9
+      },
+      {
+        "name": "prominent_veins_on_calf",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "disease": "Hypothyroidism",
+    "symptoms": [
+      {
+        "name": "fatigue",
+        "weight": 0.9
+      },
+      {
+        "name": "weight_gain",
+        "weight": 0.95
+      },
+      {
+        "name": "cold_hands_and_feets",
+        "weight": 0.95
+      },
+      {
+        "name": "mood_swings",
+        "weight": 0.95
+      },
+      {
+        "name": "lethargy",
+        "weight": 0.95
+      },
+      {
+        "name": "dizziness",
+        "weight": 0.95
+      },
+      {
+        "name": "puffy_face_and_eyes",
+        "weight": 0.95
+      },
+      {
+        "name": "enlarged_thyroid",
+        "weight": 1.0
+      },
+      {
+        "name": "brittle_nails",
+        "weight": 1.0
+      },
+      {
+        "name": "swollen_extremeties",
+        "weight": 1.0
+      },
+      {
+        "name": "depression",
+        "weight": 1.0
+      },
+      {
+        "name": "irritability",
+        "weight": 1.0
+      },
+      {
+        "name": "abnormal_menstruation",
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "disease": "Hyperthyroidism",
+    "symptoms": [
+      {
+        "name": "fatigue",
+        "weight": 0.95
+      },
+      {
+        "name": "mood_swings",
+        "weight": 0.95
+      },
+      {
+        "name": "weight_loss",
+        "weight": 0.95
+      },
+      {
+        "name": "restlessness",
+        "weight": 0.95
+      },
+      {
+        "name": "sweating",
+        "weight": 0.95
+      },
+      {
+        "name": "diarrhoea",
+        "weight": 0.95
+      },
+      {
+        "name": "fast_heart_rate",
+        "weight": 0.95
+      },
+      {
+        "name": "excessive_hunger",
+        "weight": 0.95
+      },
+      {
+        "name": "muscle_weakness",
+        "weight": 1.0
+      },
+      {
+        "name": "irritability",
+        "weight": 1.0
+      },
+      {
+        "name": "abnormal_menstruation",
+        "weight": 1.0
+      }
+    ]
+  },
+  {
+    "disease": "Hypoglycemia",
+    "symptoms": [
+      {
+        "name": "vomiting",
+        "weight": 0.95
+      },
+      {
+        "name": "fatigue",
+        "weight": 0.95
+      },
+      {
+        "name": "anxiety",
+        "weight": 0.95
+      },
+      {
+        "name": "sweating",
+        "weight": 0.95
+      },
+      {
+        "name": "headache",
+        "weight": 0.95
+      },
+      {
+        "name": "nausea",
+        "weight": 0.95
+      },
+      {
+        "name": "blurred_and_distorted_vision",
+        "weight": 0.95
+      },
+      {
+        "name": "excessive_hunger",
+        "weight": 1.0
+      },
+      {
+        "name": "slurred_speech",
+        "weight": 1.0
+      },
+      {
+        "name": "irritability",
+        "weight": 1.0
+      },
+      {
+        "name": "palpitations",
+        "weight": 1.0
+      },
+      {
+        "name": "drying_and_tingling_lips",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "disease": "Osteoarthristis",
+    "symptoms": [
+      {
+        "name": "joint_pain",
+        "weight": 0.95
+      },
+      {
+        "name": "neck_pain",
+        "weight": 0.95
+      },
+      {
+        "name": "knee_pain",
+        "weight": 0.95
+      },
+      {
+        "name": "hip_joint_pain",
+        "weight": 0.95
+      },
+      {
+        "name": "swelling_joints",
+        "weight": 0.95
+      },
+      {
+        "name": "painful_walking",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "disease": "Arthritis",
+    "symptoms": [
+      {
+        "name": "muscle_weakness",
+        "weight": 0.95
+      },
+      {
+        "name": "stiff_neck",
+        "weight": 0.95
+      },
+      {
+        "name": "swelling_joints",
+        "weight": 0.95
+      },
+      {
+        "name": "movement_stiffness",
+        "weight": 0.95
+      },
+      {
+        "name": "painful_walking",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "disease": "(vertigo) Paroymsal  Positional Vertigo",
+    "symptoms": [
+      {
+        "name": "vomiting",
+        "weight": 0.95
+      },
+      {
+        "name": "headache",
+        "weight": 0.95
+      },
+      {
+        "name": "nausea",
+        "weight": 0.95
+      },
+      {
+        "name": "spinning_movements",
+        "weight": 0.9
+      },
+      {
+        "name": "loss_of_balance",
+        "weight": 0.95
+      },
+      {
+        "name": "unsteadiness",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "disease": "Acne",
+    "symptoms": [
+      {
+        "name": "skin_rash",
+        "weight": 0.95
+      },
+      {
+        "name": "pus_filled_pimples",
+        "weight": 0.9
+      },
+      {
+        "name": "blackheads",
+        "weight": 0.9
+      },
+      {
+        "name": "scurring",
+        "weight": 0.9
+      }
+    ]
+  },
+  {
+    "disease": "Urinary tract infection",
+    "symptoms": [
+      {
+        "name": "burning_micturition",
+        "weight": 0.9
+      },
+      {
+        "name": "bladder_discomfort",
+        "weight": 0.95
+      },
+      {
+        "name": "foul_smell_of urine",
+        "weight": 0.85
+      },
+      {
+        "name": "continuous_feel_of_urine",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "disease": "Psoriasis",
+    "symptoms": [
+      {
+        "name": "skin_rash",
+        "weight": 0.95
+      },
+      {
+        "name": "joint_pain",
+        "weight": 0.95
+      },
+      {
+        "name": "skin_peeling",
+        "weight": 0.95
+      },
+      {
+        "name": "silver_like_dusting",
+        "weight": 0.95
+      },
+      {
+        "name": "small_dents_in_nails",
+        "weight": 0.95
+      },
+      {
+        "name": "inflammatory_nails",
+        "weight": 0.95
+      }
+    ]
+  },
+  {
+    "disease": "Impetigo",
+    "symptoms": [
+      {
+        "name": "skin_rash",
+        "weight": 0.95
+      },
+      {
+        "name": "high_fever",
+        "weight": 0.85
+      },
+      {
+        "name": "blister",
+        "weight": 0.95
+      },
+      {
+        "name": "red_sore_around_nose",
+        "weight": 0.95
+      },
+      {
+        "name": "yellow_crust_ooze",
+        "weight": 0.95
+      }
+    ]
+  }
+]

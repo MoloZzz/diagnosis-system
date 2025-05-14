@@ -1,13 +1,14 @@
 import json
 
-with open('./knowledge-base/knowledge_base.json', 'r', encoding='utf-8') as f:
+with open('./knowledge-base/knowledge_base3.json', 'r', encoding='utf-8') as f:
     disease_db = json.load(f)
 
 # Значення: 0.0 — немає, 0.5 — помірно, 1.0 — сильно
 user_symptoms = {
-    "high_fever": 1.0,
-    "runny_nose": 1.0,
+    "high_fever": 0.7,
+    "runny_nose": 0.5,
     "sore_throat": 0.5,
+    'loss_of_smell': 0.7,
 }
 
 def score_diseases(user_symptoms, disease_db):
@@ -28,6 +29,7 @@ def score_diseases(user_symptoms, disease_db):
             scores[disease] = 0.0
 
     return dict(sorted(scores.items(), key=lambda x: x[1], reverse=True))
+
 if __name__ == "__main__":
     results = score_diseases(user_symptoms, disease_db)
     print("Ймовірні діагнози:")
