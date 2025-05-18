@@ -1,0 +1,3961 @@
+[
+  {
+    "name": "BPHC",
+    "text": "Benign prostatic hypertrophy (BPH)",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": true,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "N40.1"
+  },
+  {
+    "name": "HCAP",
+    "text": "Healthcare-associated pneumonia (HCAP)",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": ""
+  },
+  {
+    "name": "CAPPNA",
+    "text": "Community acquired pneumonia (CAP)",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "J18.9"
+  },
+  {
+    "name": "DM2",
+    "text": "Diabetes melltus type 2",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "E11"
+  },
+  {
+    "name": "ANEMIAA",
+    "text": "Anemia",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "D64.9"
+  },
+  {
+    "name": "Thrombocytopenia",
+    "text": "Thrombocytopenia",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "D69.6"
+  },
+  {
+    "name": "GcCervicitis",
+    "text": "Gonococcal urethritis (cervicitis)",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": true,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "A54.03"
+  },
+  {
+    "name": "PCaC",
+    "text": "Prostate cancer",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "C61"
+  },
+  {
+    "name": "HxOfPCaC",
+    "text": "History of prostate cancer",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "C61"
+  },
+  {
+    "name": "ProstatisA",
+    "text": "Prostatitis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": true,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "N41.0"
+  },
+  {
+    "name": "GcUA",
+    "text": "Gonococcal urethritis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "A54.01"
+  },
+  {
+    "name": "Covid19Test",
+    "text": "COVID-19 virus identified",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "U07.1"
+  },
+  {
+    "name": "CUC",
+    "text": "Ulcerative colitis",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "K51.90"
+  },
+  {
+    "name": "CUA",
+    "text": "Ulcerative colitis exacerbation",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "K51.90"
+  },
+  {
+    "name": "Covid19Contact",
+    "text": "Contact with and (suspected) exposure to COVID-19",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "Z20.822"
+  },
+  {
+    "name": "Covid19URTI",
+    "text": "Coronavirus disease 2019 (Covid-19) mostly upper respiratory tract infection with, or without bronchitis, but without significant pneumonia",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "U07.1"
+  },
+  {
+    "name": "Covid19PNA",
+    "text": "Coronavirus disease 2019 (covid-19) with pneumonia",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "J12.82"
+  },
+  {
+    "name": "CommonCold",
+    "text": "Common cold or viral upper respiratory tract infection (URTI)",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 1,
+    "ICD10": ""
+  },
+  {
+    "name": "PancreatitisETOH",
+    "text": "Acute pancreatitis triggered by alcohol",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "K85.2"
+  },
+  {
+    "name": "PancreatitisA",
+    "text": "Idiopathic acute pancreatitis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "K85.00"
+  },
+  {
+    "name": "ClusterHeadache",
+    "text": "Cluster headaches",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 2,
+    "ICD10": "G44.009"
+  },
+  {
+    "name": "UncontrolledHTN",
+    "text": "Uncontrolled hypertension.",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "I10,R03.0"
+  },
+  {
+    "name": "DiabetesKACA",
+    "text": "Diabetic ketoacidosis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "E11.10"
+  },
+  {
+    "name": "FusobacteriumNecrophorumPharyngitisComplicatedWithLemierreSyndrome",
+    "text": "Fusobacterium necrophorum pharyngitis complicated with Lemierre syndrome",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "A69.1"
+  },
+  {
+    "name": "PrimaryArterialHypertension",
+    "text": "Primary systemic arterial hypertension",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "I10"
+  },
+  {
+    "name": "PrimaryArterialHypertensionByHx",
+    "text": "History of systemic hypertension",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "I10"
+  },
+  {
+    "name": "PancreatitisHyperTGL",
+    "text": "Acute pancreatitis due to hyperglyceridemia",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "K85.9"
+  },
+  {
+    "name": "PancreatitisGAP",
+    "text": "Acute pancreatitis due to gallstones",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "K85.1"
+  },
+  {
+    "name": "PancreatitisHIV",
+    "text": "Acute pancreatitis due to HIV",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "K85.9"
+  },
+  {
+    "name": "HypertensiveEmergencyA",
+    "text": "Hypertensive emergency",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "I16.1"
+  },
+  {
+    "name": "PancreatitisPancreaticCa",
+    "text": "Acute pancreatitis due to pancreatic cancer",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "C25.9"
+  },
+  {
+    "name": "SecondaryArterialHypertensionObesity",
+    "text": "Arterial hypertension (chronic) secondary to obesity",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "I15.9,E66.01"
+  },
+  {
+    "name": "HeadacheAfterNitrates",
+    "text": "Headache after use of nitroglycerin or nitrates.",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 2,
+    "ICD10": "T46.3X5A"
+  },
+  {
+    "name": "CoronaryArteryDiseaseCAD",
+    "text": "Coronary artery disease, stable angina (CAD)",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "I25.119"
+  },
+  {
+    "name": "UnstableAngina",
+    "text": "Unstable angina (CAD)",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "I20.0"
+  },
+  {
+    "name": "HeadacheDueToHTN",
+    "text": "Headache due to uncontrolled hypertension.",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "I67.4"
+  },
+  {
+    "name": "HypertensiveUrgencyA",
+    "text": "Hypertensive urgency",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "I16.0"
+  },
+  {
+    "name": "HeadacheDueToCaffeineWithdrawal",
+    "text": "Headache due to caffeine withdrawal",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 2,
+    "ICD10": "F15.93"
+  },
+  {
+    "name": "PancreatitisDueToMeds",
+    "text": "Acute pancreatitis due to medications",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "K85.30"
+  },
+  {
+    "name": "PancreatitisHyperCalcemia",
+    "text": "Acute pancreatitis due to hypercalcemia",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "K85.9"
+  },
+  {
+    "name": "SecondaryArterialHypertensionCKD",
+    "text": "Arterial hypertension (chronic) secondary to chronic kidney disease",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "I12"
+  },
+  {
+    "name": "TensionHeadache",
+    "text": "Tension headaches",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 2,
+    "ICD10": "G44.209"
+  },
+  {
+    "name": "PancreatitisOddis",
+    "text": "Acute pancreatitis due to sphincter of Oddi dysfunction",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": ""
+  },
+  {
+    "name": "PancreatitisERCP",
+    "text": "Acute pancreatitis due to recent endoscopic retrograde cholangiopancreatography (ERCP)",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "K86.89"
+  },
+  {
+    "name": "GastrittisBleedingA",
+    "text": "Gastritis related upper GI bleeding ",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "K29.71"
+  },
+  {
+    "name": "MigraineHeadache",
+    "text": "Migraine headaches",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 2,
+    "ICD10": "G43.909"
+  },
+  {
+    "name": "FusobacteriumNecrophorumPharyngitis",
+    "text": "Fusobacterium necrophorum pharyngitis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "A69.1"
+  },
+  {
+    "name": "Leukopenia",
+    "text": "Leukopenia (leukocytopenia)",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "D72.819"
+  },
+  {
+    "name": "BRONCHITISA",
+    "text": "Acute bronchitis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "J20.9"
+  },
+  {
+    "name": "FluA",
+    "text": "Influenza",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "J10.1"
+  },
+  {
+    "name": "AorticDissectionThoracic",
+    "text": "Thoracic aortic dissection",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": ""
+  },
+  {
+    "name": "PeritionitisA",
+    "text": "Peritonitis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": "K65.9"
+  },
+  {
+    "name": "VaricealBleedingA",
+    "text": "Variceal (esophagus) bleeding",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": "I85.01"
+  },
+  {
+    "name": "PancreatitisC",
+    "text": "Chronic pancreatitis",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "K86.1"
+  },
+  {
+    "name": "SecondaryArterialHypertension",
+    "text": "Secondary arterial hypertension (chronic)",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "I15.9"
+  },
+  {
+    "name": "PTXA",
+    "text": "Acute pneumothorax",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "J93.9"
+  },
+  {
+    "name": "ChronsA",
+    "text": "Crohn's disease exacerbation",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "K50.90"
+  },
+  {
+    "name": "TracheobronchitisA",
+    "text": "Acute tracheobronchitis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": "J20.9"
+  },
+  {
+    "name": "Ureterolithiasis",
+    "text": "Ureterolithiasis (ureteral stones)",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "N20.0"
+  },
+  {
+    "name": "PericarditisA",
+    "text": "Pericarditis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": "I30.9"
+  },
+  {
+    "name": "ViralPharyngitis",
+    "text": "Viral pharyngitis (etiology usually rhinovirus, coronavirus, adenovirus, parainfluenza)",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 2,
+    "ICD10": "J02.9"
+  },
+  {
+    "name": "AllergicRhinitisToPollen",
+    "text": "Allergic rhinitis to pollen",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "J30.9"
+  },
+  {
+    "name": "AllergicRhinitisToDustMites",
+    "text": "Allergic rhinitis to dust mites",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "J30.89"
+  },
+  {
+    "name": "StrepThroatA",
+    "text": "Streptococcal pharyngitis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "J02"
+  },
+  {
+    "name": "LVFA",
+    "text": "Acute left ventricle heart failure",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "I50.1"
+  },
+  {
+    "name": "GERDA",
+    "text": "Gastroesophageal reflux without esophagitis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "K21.9"
+  },
+  {
+    "name": "SecondaryArterialHypertensionSecondaryRASAtherosclerotic",
+    "text": "Secondary arterial hypertension secondary to renal artery stenosis secondary to atherosclerosis",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "I15. 0"
+  },
+  {
+    "name": "EsophagealSpasmA",
+    "text": "Esophageal spasm",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": ""
+  },
+  {
+    "name": "SecondaryArterialHypertensionHyperaldo",
+    "text": "Arterial hypertension (chronic) secondary to hyperaldosteronism",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "E26.1"
+  },
+  {
+    "name": "GERDAWEsophagitisWOBleed",
+    "text": "Gastroesophageal reflux with esophagitis without bleed",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "K21.00"
+  },
+  {
+    "name": "SinusitisC",
+    "text": "Chronic sinusitis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "J32.9"
+  },
+  {
+    "name": "CKD",
+    "text": "Chronic kidney disease stages (III, IV and V)",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "N18.9"
+  },
+  {
+    "name": "!CKD",
+    "text": "Chronic kidney disease",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "N18.9"
+  },
+  {
+    "name": "RVFA",
+    "text": "Acute right ventricle heart failure",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 4,
+    "ICD10": "I50.811"
+  },
+  {
+    "name": "PleuralEffusionA",
+    "text": "Pleural effusion",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "J90"
+  },
+  {
+    "name": "FissureA",
+    "text": "Perirectal fissure",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "K60.2"
+  },
+  {
+    "name": "SinusitisA",
+    "text": "Acute sinusitis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "J01.90"
+  },
+  {
+    "name": "GERDAWEsophagitisWBleed",
+    "text": "Gastroesophageal reflux with esophagitis with bleed",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "K21.01"
+  },
+  {
+    "name": "LaryngitisA",
+    "text": "Acute laryngitis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "J04.0"
+  },
+  {
+    "name": "RespiratoryAcidosis",
+    "text": "Respiratory acidosis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "J96.02"
+  },
+  {
+    "name": "ANEMIAAFromAcuteBloodLoss",
+    "text": "Anemia from acute blood loss",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "D62"
+  },
+  {
+    "name": "ObesityHypeventA",
+    "text": "Obesity hypoventilation syndrome",
+    "category": "acute"
+  },
+  {
+    "name": "BRCA12Carier",
+    "text": "BRCA1/2 (breast or ovarian gene carier) status",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": true,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "Z15.01"
+  },
+  {
+    "name": "PE",
+    "text": "Pulmonary embolus",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "I26.9"
+  },
+  {
+    "name": "HxOfPE",
+    "text": "Past history of pulmonary embolus",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": ""
+  },
+  {
+    "name": "HxOfDVT",
+    "text": "Past history of deep vein thrombosis",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 2,
+    "ICD10": ""
+  },
+  {
+    "name": "HxOfCHF",
+    "text": "Past history of congestive heart failure (CHF)",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": ""
+  },
+  {
+    "name": "HxOfCAD",
+    "text": "Past history of coronary artery disease (CAD)",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": ""
+  },
+  {
+    "name": "HxOfAfibAflut",
+    "text": "Past history of atrial fibrillation (Afib) or atrial flutter (Aflut)",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": ""
+  },
+  {
+    "name": "HxOfCVA",
+    "text": "Past history of cebrovascular accident (CVA)",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": ""
+  },
+  {
+    "name": "GastroenteritisViralA",
+    "text": "Gastroenteritis likely viral",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": "A09"
+  },
+  {
+    "name": "Transaminitis",
+    "text": "Transaminitis",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "R74.0"
+  },
+  {
+    "name": "SecondaryArterialHypertensionOSA",
+    "text": "Arterial hypertension (chronic) secondary to OSA",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "I15.9,G47.33"
+  },
+  {
+    "name": "DM1ByHx",
+    "text": "Past medical history of diabetes melltus type 1 per history",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "E10"
+  },
+  {
+    "name": "DiabeticNephropathy",
+    "text": "Diabetic Nephropathy",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "N18.9"
+  },
+  {
+    "name": "AppendicitisA",
+    "text": "!!!",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": "K35.80"
+  },
+  {
+    "name": "PUDPerfA",
+    "text": "Perforated peptic or duodenal ulcer",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "K25.1"
+  },
+  {
+    "name": "SepsticShockA",
+    "text": "Septic shock",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "R65.21"
+  },
+  {
+    "name": "Shock",
+    "text": "Shock",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "R57.9"
+  },
+  {
+    "name": "ShockLiver",
+    "text": "Shock liver",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "K72.0"
+  },
+  {
+    "name": "HypertensiveNephropathy",
+    "text": "Hypertensive nephropathy",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": ""
+  },
+  {
+    "name": "AnaphylacticShock",
+    "text": "Anaphylactic shock",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "T78.00XA"
+  },
+  {
+    "name": "SVT",
+    "text": "Superficial vein thrombosis (SVT) of lower extremities",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "I82.819"
+  },
+  {
+    "name": "DVT",
+    "text": "Deep vein thrombosis (DVT)",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "I82.40"
+  },
+  {
+    "name": "COPDA",
+    "text": "COPD exacerbation",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "J44.1"
+  },
+  {
+    "name": "ACEinhibitorRelatedCough",
+    "text": "Cough caused by ACE (angiotensin converting enzyme) inhibitor, or ARB (angiotensin receptor blocker)",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 2,
+    "ICD10": "T46.4X5A"
+  },
+  {
+    "name": "AsthmaA",
+    "text": "Asthma exacerbation without acute respiratory failure",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "J45.901"
+  },
+  {
+    "name": "AtopicDermatitis",
+    "text": "Atopic dermatitis",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "l20.9"
+  },
+  {
+    "name": "BowelObstructionA",
+    "text": "Bowel obstruction",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "K56.60"
+  },
+  {
+    "name": "AsthmaARFA",
+    "text": "Asthma exacerbation with acute respiratory failure",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": false,
+    "Risk": 4,
+    "ICD10": ""
+  },
+  {
+    "name": "OSA",
+    "text": "Obstructive sleep apnea",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "G47.33"
+  },
+  {
+    "name": "PulmTBA",
+    "text": "Pulmonary tuberculosis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": ""
+  },
+  {
+    "name": "NonTBMycobacteriaeA",
+    "text": "Acute nontuberculous mycobacterial lung infection",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": ""
+  },
+  {
+    "name": "LungAbscessA",
+    "text": "Lung abscess",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": ""
+  },
+  {
+    "name": "EmpyemaA",
+    "text": "Empyema",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": ""
+  },
+  {
+    "name": "OtitisMediaA",
+    "text": "Otitis media",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "H66.9"
+  },
+  {
+    "name": "OtitisExternaA",
+    "text": "Otitis externa",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "H60"
+  },
+  {
+    "name": "AcuteEyeEmergencyA",
+    "text": "Acute eye emergency",
+    "category": "acute"
+  },
+  {
+    "name": "AnxietyA",
+    "text": "Anxiety",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false
+  },
+  {
+    "name": "AorticStenosisA",
+    "text": "Acute aortic stenosis (AS)",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": ""
+  },
+  {
+    "name": "PCDiabetesC",
+    "text": "Uncontrolled diabetes",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3
+  },
+  {
+    "name": "AorticRegurgitationA",
+    "text": "Acute aortic regurgitation (AR or AI)",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": ""
+  },
+  {
+    "name": "MitralRegurgitationA",
+    "text": "Acute mitral regurgitation (MR)",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": ""
+  },
+  {
+    "name": "PulmonaryRegurgitationA",
+    "text": "Pulmonary regurgitation (PR)",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": ""
+  },
+  {
+    "name": "ThyroidGoiterA",
+    "text": "Acute thyroid goiter airway obstruction",
+    "category": "acute"
+  },
+  {
+    "name": "MIA",
+    "text": "Myocardial infarction",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "I21.9"
+  },
+  {
+    "name": "DiabetesHONKA",
+    "text": "Diabetic hyperosmolar hyperglycemic state",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "E11. 00"
+  },
+  {
+    "name": "ACSA",
+    "text": "Acute coronary syndrome",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": "I24.9"
+  },
+  {
+    "name": "VSDA",
+    "text": "Acute ventricular septal (rupture) defect",
+    "category": "acute"
+  },
+  {
+    "name": "CostochondritisAMSKChestPain",
+    "text": "Costochondritis or otherwise musculoskeletal chest pain",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": false,
+    "Risk": 4,
+    "ICD10": "R07.89"
+  },
+  {
+    "name": "SpinalfacetjointsCPA",
+    "text": "Spinal facet joints related chest pain",
+    "category": "acute"
+  },
+  {
+    "name": "TSpineCPA",
+    "text": "Thoracic spine fracture related chest pain",
+    "category": "acute"
+  },
+  {
+    "name": "SpinalDiscopathyCPA",
+    "text": "Spinal discopathy related chest pain",
+    "category": "acute"
+  },
+  {
+    "name": "PleuritisA",
+    "text": "Pleuritis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": ""
+  },
+  {
+    "name": "AtelectasisA",
+    "text": "Atelectasis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": ""
+  },
+  {
+    "name": "LobarObstructionA",
+    "text": "Lobar obstruction",
+    "category": "acute"
+  },
+  {
+    "name": "HealthyA",
+    "text": "Patient seems free from acute respiratory issues",
+    "category": "acute"
+  },
+  {
+    "name": "HealthyAllA",
+    "text": "Patient seems free from acute issues",
+    "category": "acute"
+  },
+  {
+    "name": "OvarianTorsionA",
+    "text": "Ovarian torsion",
+    "category": "acute"
+  },
+  {
+    "name": "MissedAA",
+    "text": "Missed abortion",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": "O02.1"
+  },
+  {
+    "name": "DeathA",
+    "text": "Risk of death within 24 hours",
+    "category": "acute"
+  },
+  {
+    "name": "TesticularTorsionA",
+    "text": "Testicular torsion",
+    "category": "acute"
+  },
+  {
+    "name": "HemorrhoidsA",
+    "text": "Hemorrhoids - acute thrombosis or infection",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "K64.8"
+  },
+  {
+    "name": "PUDBleed",
+    "text": "Bleeding peptic or duodenal ulcer",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "K25.6"
+  },
+  {
+    "name": "PUDA",
+    "text": "Peptic ulcer disease",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "K27.9"
+  },
+  {
+    "name": "HPylor",
+    "text": "Helicobacter pylory infection",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "B96.81"
+  },
+  {
+    "name": "GastroenteritisBacterialA",
+    "text": "Gastroenteritis likely bacterial (i.e. Shigella)",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": "A09"
+  },
+  {
+    "name": "PortalVeinThrombosisA",
+    "text": "Portal vein thrombosis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": "I81"
+  },
+  {
+    "name": "BuddChiariA",
+    "text": "Budd-Chiari syndrome",
+    "category": "acute"
+  },
+  {
+    "name": "DM1",
+    "text": "Diabetes melltus type 1",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "E10"
+  },
+  {
+    "name": "HyperTGL",
+    "text": "Hyperglyceridemia",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "E78.5"
+  },
+  {
+    "name": "PancreaticCaA",
+    "text": "Pancreatic cancer",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "C25.9"
+  },
+  {
+    "name": "CholecystitisA",
+    "text": "Acute cholecystitis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "K81.9"
+  },
+  {
+    "name": "GoutFlair",
+    "text": "Gout flair",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "M10.9"
+  },
+  {
+    "name": "ToeTraumaPain",
+    "text": "Trauma to the toe",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "S90.93"
+  },
+  {
+    "name": "GoutFlairFromDiuretics",
+    "text": "Gout flair related to diuretic use",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "M10.9"
+  },
+  {
+    "name": "GerdA",
+    "text": "Esophageal rupture (rupture)",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "K22.3"
+  },
+  {
+    "name": "BIA",
+    "text": "Bowel ischaemia",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": ""
+  },
+  {
+    "name": "CDCA",
+    "text": "Clostridium difficile colitis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "A04.7"
+  },
+  {
+    "name": "SepsisA",
+    "text": "Sepsis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": false,
+    "Risk": 4,
+    "ICD10": "A41.9"
+  },
+  {
+    "name": "DM2ByHx",
+    "text": "Past medical history of diabetes melltus type 2 per history (chronic)",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "E11"
+  },
+  {
+    "name": "SuicidialOverdoseA",
+    "text": "Suicidal or purposeful overdose",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "T50.902A"
+  },
+  {
+    "name": "BeerA",
+    "text": "Beer potomania",
+    "category": "acute"
+  },
+  {
+    "name": "HypoNaA",
+    "text": "Hyponatremia acute",
+    "category": "acute"
+  },
+  {
+    "name": "HypoNaSIADHA",
+    "text": "Hyponatremia SIADH",
+    "category": "acute"
+  },
+  {
+    "name": "HyperKA",
+    "text": "Hyperkalemia",
+    "category": "acute"
+  },
+  {
+    "name": "HyperCaA",
+    "text": "Hypercalcemia",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3
+  },
+  {
+    "name": "HyperParaCaA",
+    "text": "Hyperparathyroidism",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false
+  },
+  {
+    "name": "MeningitisA",
+    "text": "Bacgterial meningitis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "G00.9"
+  },
+  {
+    "name": "EncephalitisA",
+    "text": "Encephalitis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": "G04.90"
+  },
+  {
+    "name": "HypercapnicA",
+    "text": "Hypercapnic coma",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "J96.02"
+  },
+  {
+    "name": "SSA",
+    "text": "Serotoninergic syndrome",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "T43. 221A"
+  },
+  {
+    "name": "OpiatesA",
+    "text": "Opiates overdose",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "T40.605"
+  },
+  {
+    "name": "TCAA",
+    "text": "Tricyclic antidepressant overdose (TCA) overdose",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "T43.011A"
+  },
+  {
+    "name": "StarvationKA",
+    "text": "Starvation ketoacidosis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "T73.0XXA"
+  },
+  {
+    "name": "Starvation",
+    "text": "Starvation",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "T73.0XXA"
+  },
+  {
+    "name": "MetabolicGapAcidosis",
+    "text": "Metabolic acidosis with elevated anion gap",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "E87.2"
+  },
+  {
+    "name": "MetabolicNonGapAcidosis",
+    "text": "Metabolic acidosis without elevated anion gap",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "E87.2"
+  },
+  {
+    "name": "LacticAcidosis",
+    "text": "Lactic acidosis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": "E87.2"
+  },
+  {
+    "name": "HypoA",
+    "text": "Hypoglycemia",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "E16.2"
+  },
+  {
+    "name": "HypoThyroA",
+    "text": "Hypothyroidism severe (myxedema coma or crisis)",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "E03.5"
+  },
+  {
+    "name": "HyperthyroidCrisisA",
+    "text": "Hyperthyroidism acute (hyperthyroid crisis or thyrotoxic storm)",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "E05. 41"
+  },
+  {
+    "name": "GastroparesisA",
+    "text": "Gastroparesis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "K31.84"
+  },
+  {
+    "name": "SecondaryArterialHypertensionSecondaryRASFibromuscularDysplasia",
+    "text": "Secondary arterial hypertension secondary to renal artery stenosis, secondary to fibromuscular dysplasia",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "I15"
+  },
+  {
+    "name": "ARFA",
+    "text": "Acute renal failure",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "N17.9"
+  },
+  {
+    "name": "UTIA",
+    "text": "UTI",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "N39.0"
+  },
+  {
+    "name": "MNKD",
+    "text": "Membranous nephropathy",
+    "category": "chronic"
+  },
+  {
+    "name": "PIDA",
+    "text": "Pelvic inflammatory disease",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "N73.9"
+  },
+  {
+    "name": "EPA",
+    "text": "Ectopic pregnancy",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": true,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "O00.9"
+  },
+  {
+    "name": "PastHxOfPregnancy",
+    "text": "Past history of pregnancy",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": true,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 2,
+    "ICD10": ""
+  },
+  {
+    "name": "PastHxOfSpontaneousAbortion",
+    "text": "Past history of spontaneous abortion",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": true,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 2,
+    "ICD10": ""
+  },
+  {
+    "name": "NeutropA",
+    "text": "Neutropenia",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "D70.9"
+  },
+  {
+    "name": "NeutroponicFeverA",
+    "text": "Neutropenic fever",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "R50.81,D70.9"
+  },
+  {
+    "name": "MSPregnancyA",
+    "text": "Morning sickness (pregnancy)",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": true,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "O21.9"
+  },
+  {
+    "name": "OtherDxA",
+    "text": "Other acute diagnoses",
+    "category": "acute"
+  },
+  {
+    "name": "BacterialEndocarditisA",
+    "text": "Acute bacterial endocarditis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "I33.0"
+  },
+  {
+    "name": "TVBacterialEndocarditisA",
+    "text": "Tricuspid valve bacterial endocarditis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "I33.0"
+  },
+  {
+    "name": "MetastaticAbscessesA",
+    "text": "Metastatic abscesses from endocarditis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "I33.0"
+  },
+  {
+    "name": "PleurisyA",
+    "text": "Acute pleurisy",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "R09.1"
+  },
+  {
+    "name": "HPTXA",
+    "text": "Acute hemopneumothorax",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "J94.2,J93.9"
+  },
+  {
+    "name": "HTXA",
+    "text": "Acute hemothorax",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "J94.2"
+  },
+  {
+    "name": "SciaticaA",
+    "text": "Sciatica (radicular low back pain)",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "M54.16"
+  },
+  {
+    "name": "MechanicalLBPA",
+    "text": "Mechanical low back pain (muscle strain)",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 2,
+    "ICD10": "S39.012A"
+  },
+  {
+    "name": "CystitisUTIA",
+    "text": "Cystitis (urinary tract infection)",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "N39.0"
+  },
+  {
+    "name": "PyelonephritisUTIA",
+    "text": "Pyelonephritis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "N10"
+  },
+  {
+    "name": "SuicideA",
+    "text": "Suicide attempt",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "T14.91"
+  },
+  {
+    "name": "AcetaminophenOverdoseA",
+    "text": "Acetaminophen overdose",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "T39.1X4"
+  },
+  {
+    "name": "EthyleneGlycolOverdoseA",
+    "text": "Ethylene glycol poisoning",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "T59.894"
+  },
+  {
+    "name": "STATA",
+    "text": "Patient in immediate life-threatening condition",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4
+  },
+  {
+    "name": "CNeoMeningitisA",
+    "text": "Cryptococcus neoformans meningoencephalitis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "B45.1"
+  },
+  {
+    "name": "FungoMeningitisA",
+    "text": "Fungal meningitis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "B37.5"
+  },
+  {
+    "name": "HSVEncephalitisA",
+    "text": "HSV-1 encephalitis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "B00.4"
+  },
+  {
+    "name": "BrainCaA",
+    "text": "Intracranial (i.e. brain) primary neoplasm or metastatic disease to the brain",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "C71.9"
+  },
+  {
+    "name": "ICH",
+    "text": "Intracranial hemorrhage.",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "I63.50"
+  },
+  {
+    "name": "ContusionA",
+    "text": "Brain contusion",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 4,
+    "ICD10": "S06.330A"
+  },
+  {
+    "name": "SpineCaA",
+    "text": "Lower spine vertebral or lower spinal tumor",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "C41.2"
+  },
+  {
+    "name": "SAHA",
+    "text": "Subarachnoid hemorrhage (SAH)",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "S06.6X9"
+  },
+  {
+    "name": "IschemicCVADisease",
+    "text": "Ischemic cerebrovascular accident (CVA)",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "I63.9"
+  },
+  {
+    "name": "LEMSA",
+    "text": "Lambert-Eaton Myasthenic Syndrome (LEMS)",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "G73.1"
+  },
+  {
+    "name": "MyastheniaA",
+    "text": "Myasthenia gravis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3
+  },
+  {
+    "name": "BenzosA",
+    "text": "Benzodiazepines overdose",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "T42.4X1A"
+  },
+  {
+    "name": "StomachCa",
+    "text": "Stomach cancer",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "C16.9"
+  },
+  {
+    "name": "MechanicalSmallBowelObstructionA",
+    "text": "Mechanical small bowel obstruction",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "K56.609"
+  },
+  {
+    "name": "AdynamicSmallBowelObstructionA",
+    "text": "Adynamic (paralytic) ileus",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "K56.0,K56.609"
+  },
+  {
+    "name": "LargeBowelObstructionA",
+    "text": "Large bowel obstruction",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "K56.69"
+  },
+  {
+    "name": "SmallBowelObstruction",
+    "text": "Small bowel obstruction",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "K56.69"
+  },
+  {
+    "name": "MesentericIschemiaA",
+    "text": "Acute mesenteric ischemia",
+    "category": "acute",
+    "IsRare": true,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "K55.059"
+  },
+  {
+    "name": "MesentericIschemiaC",
+    "text": "Chronic mesenteric ischemia (intestinal angina)",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "K55.1"
+  },
+  {
+    "name": "EmbolicLowerLimbIschemiaA",
+    "text": "Arterial embolism (embolization) caused lower extremity ischemia",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "I74.3"
+  },
+  {
+    "name": "Atheroscleroticlowerextremitiesischemia",
+    "text": "Atherosclerotic lower extremities ischemia.",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "I70.229"
+  },
+  {
+    "name": "IschCoitisA",
+    "text": "Acute ischemic colitis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "K55.059"
+  },
+  {
+    "name": "AcuteDiverticulitisA",
+    "text": "Acute diverticulitis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "K57.00"
+  },
+  {
+    "name": "DMKD",
+    "text": "Diabetes mellitus related kidney disease",
+    "category": "chronic"
+  },
+  {
+    "name": "AcuteappendicitisA",
+    "text": "Acute appendicitis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "K35.32"
+  },
+  {
+    "name": "ChlamydialUA",
+    "text": "Chlamydia Trachomatis urethritis (cervicitis)",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": true,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "A56.01"
+  },
+  {
+    "name": "ChlamydialCervicitis",
+    "text": "Chlamydia Trachomatis cervicitis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": true,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "A74.9"
+  },
+  {
+    "name": "Urethritis",
+    "text": "Urethritis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "N34.1"
+  },
+  {
+    "name": "BacterialvagA",
+    "text": "Bacterial vaginosis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": true,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "N77.1"
+  },
+  {
+    "name": "CandidalvagA",
+    "text": "Candidal vaginitis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": true,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "B37.3"
+  },
+  {
+    "name": "TrichomonasvagA",
+    "text": "Trichomonas vaginitis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": true,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 2,
+    "ICD10": "A59.01"
+  },
+  {
+    "name": "AtrophicVaginitis",
+    "text": "Atrophic vaginitis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": true,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 2,
+    "ICD10": "N95.2"
+  },
+  {
+    "name": "URetenA",
+    "text": "Urinary retention",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "R33.9"
+  },
+  {
+    "name": "OrchitisA",
+    "text": "Acute orchitis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "N45.2"
+  },
+  {
+    "name": "MENPA",
+    "text": "Menstrual pain",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": true,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 2,
+    "ICD10": "N94.6"
+  },
+  {
+    "name": "Menstruation",
+    "text": "Menstruation",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": true,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 1
+  },
+  {
+    "name": "PlaceHolderAcuteDiagnosisAlias1AcuteDxAlias",
+    "text": "Acute aspiration",
+    "category": "acute"
+  },
+  {
+    "name": "PlaceHolderAcuteDiagnosisAlias2AcuteDxAlias",
+    "text": "Atrial fibrillation with rapid ventricular response (Afib with RVR)",
+    "category": "acute"
+  },
+  {
+    "name": "PlaceHolderAcuteDiagnosisAlias3AcuteDxAlias",
+    "text": "Atrial fibrillation episode (Afib)",
+    "category": "acute"
+  },
+  {
+    "name": "FUO",
+    "text": "Fever of unknown origin (FUO)",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": ""
+  },
+  {
+    "name": "PulmonaryEdema",
+    "text": "Pulmonary edema.",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "J81.0"
+  },
+  {
+    "name": "Choledocholithiasis",
+    "text": "Choledocholithiasis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "K80"
+  },
+  {
+    "name": "AnticholinergicsOverdose",
+    "text": "Anticholinergics overdose",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": ""
+  },
+  {
+    "name": "EthanolOverdose",
+    "text": "Ethanol overdose",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": ""
+  },
+  {
+    "name": "PulmonaryHypertensionC",
+    "text": "Pulmonary hypertension (PulmHTN)",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": ""
+  },
+  {
+    "name": "PlaceHolderAcuteDiagnosisAlias12AcuteDxAlias",
+    "text": "Clonidine overdose",
+    "category": "acute"
+  },
+  {
+    "name": "PlaceHolderAcuteDiagnosisAlias13AcuteDxAlias",
+    "text": "Acute respiratory distress syndrome (ARDS)",
+    "category": "acute"
+  },
+  {
+    "name": "PlaceHolderAcuteDiagnosisAlias14AcuteDxAlias",
+    "text": "Hypersensitivity pneumonitis (HP)",
+    "category": "acute"
+  },
+  {
+    "name": "HypoxicRespiratoryfailure",
+    "text": "Hypoxic respiratory failure",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "J96.01"
+  },
+  {
+    "name": "HypercapnicRespiratoryfailure",
+    "text": "Hypercapnic respiratory failure",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "J96.12"
+  },
+  {
+    "name": "PulmonaryArteryPressingOnLMCAAngina",
+    "text": "Angina cause by pulmonary artery aneurysm causing left main coronary",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "I25.41"
+  },
+  {
+    "name": "PulmonaryArteryAneurysm",
+    "text": "Pulmonary artery aneurysm",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "I28.1"
+  },
+  {
+    "name": "AnginaCausedByLowCardiacOutput",
+    "text": "Angina caused by low cardiac output",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "I20.9"
+  },
+  {
+    "name": "LowCardiacOutputSyndrome",
+    "text": "Low (cardiac) output syndrome",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "I50.9"
+  },
+  {
+    "name": "AnginaAS",
+    "text": "Angina caused by aortic stenosis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "I35.0"
+  },
+  {
+    "name": "DemandMyocardialIschaemia",
+    "text": "Demand myocardial ischaemia",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "I21.A1"
+  },
+  {
+    "name": "Graves",
+    "text": "Graves' hyperthyroidism",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "E05.00"
+  },
+  {
+    "name": "Painlessthyroiditis",
+    "text": "Painless thyroiditis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": false,
+    "Risk": 2,
+    "ICD10": "E06.9"
+  },
+  {
+    "name": "NSTEMI",
+    "text": "Non-ST-elevation myocardial infarction (NSTEMI)",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "I21.4"
+  },
+  {
+    "name": "Myocarditis",
+    "text": "Myocarditis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "I51.4"
+  },
+  {
+    "name": "STEMI",
+    "text": "ST-elevation myocardial infarction (STEMI)",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "I21.3"
+  },
+  {
+    "name": "Delirium",
+    "text": "Delirium",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "R41.0"
+  },
+  {
+    "name": "Gastritis",
+    "text": "Gastritis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "K29"
+  },
+  {
+    "name": "AcutUpperGIBleed",
+    "text": "Acute upper gastrointestinal tract bleeding",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "K92.2"
+  },
+  {
+    "name": "AcuteLowerGIBleed",
+    "text": "Acute lower gastrointestinal tract bleeding",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "K92.2"
+  },
+  {
+    "name": "HemorrhaficShock",
+    "text": "Hemorrhagic shock from gastrointestinal bleeding",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "R57.1"
+  },
+  {
+    "name": "PlaceHolderAcuteDiagnosisAlias32AcuteDxAlias",
+    "text": "Metastatic diseases to the liver or primary neoplasm of the liver",
+    "category": "acute"
+  },
+  {
+    "name": "Anaphylaxis",
+    "text": "Anaphylaxis",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "T78.2"
+  },
+  {
+    "name": "PlaceHolderAcuteDiagnosisAlias35AcuteDxAlias",
+    "text": "Seasonal (pollen) allergies",
+    "category": "acute"
+  },
+  {
+    "name": "PlaceHolderAcuteDiagnosisAlias36AcuteDxAlias",
+    "text": "Hepatic encephalopathy",
+    "category": "acute"
+  },
+  {
+    "name": "COPDC",
+    "text": "Chronic obstructive pulmonary disease (COPD)",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 2,
+    "ICD10": "J44.9"
+  },
+  {
+    "name": "AsthmaC",
+    "text": "Chronic asthma",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 2,
+    "ICD10": "J45.909"
+  },
+  {
+    "name": "CSSC",
+    "text": "Churg-Strauss syndrome",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "M30.1"
+  },
+  {
+    "name": "LVFC",
+    "text": "Chronic left ventricle heart failure (LVHF)",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "I50.1"
+  },
+  {
+    "name": "HypertrophicCardiomyopathyC",
+    "text": "Hypertrophic cardiomyopathy",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "I42.2"
+  },
+  {
+    "name": "DilatedCardiomyopathyC",
+    "text": "Dilated cardiomyopathy",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "I42.0"
+  },
+  {
+    "name": "TricuspidRegurgitationC",
+    "text": "Chronic tricuspid regurgitation (TR)",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "I36.1"
+  },
+  {
+    "name": "Hydronephrosis",
+    "text": "Hydronephrosis.",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "N13.2"
+  },
+  {
+    "name": "InsulinomaC",
+    "text": "Pancreatic insulinoma",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "D137"
+  },
+  {
+    "name": "ASDC",
+    "text": "Atrial septal defect (ASD)",
+    "category": "chronic"
+  },
+  {
+    "name": "VSDC",
+    "text": "Ventricular septal defect (VSD) (chronic)",
+    "category": "chronic"
+  },
+  {
+    "name": "PDAC",
+    "text": "Patent ductus arteriosus (PTA)",
+    "category": "chronic"
+  },
+  {
+    "name": "MitralRegurgitationC",
+    "text": "Chronic mitral regurgitation (MR)",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": ""
+  },
+  {
+    "name": "MitralStenosisC",
+    "text": "Chronic mitral stenosis (MS)",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": ""
+  },
+  {
+    "name": "RVFC",
+    "text": "Chronic right ventricle heart failure (RVHF)",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": ""
+  },
+  {
+    "name": "NonConstrictivePericarditisC",
+    "text": "Non constrictive pericarditis",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": ""
+  },
+  {
+    "name": "ConstrictivePericarditisC",
+    "text": "Constrictive pericarditis",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": ""
+  },
+  {
+    "name": "Hyperaldosteronism",
+    "text": "Hyperaldosteronism",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "E26.9"
+  },
+  {
+    "name": "BrainNeoC",
+    "text": "Brain neoplasm",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "C71.9"
+  },
+  {
+    "name": "MSC",
+    "text": "Multiple sclerosis",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "G35"
+  },
+  {
+    "name": "ANEMIAC",
+    "text": "Chronic anemia",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3
+  },
+  {
+    "name": "ObesityC",
+    "text": "Obesity",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "E66"
+  },
+  {
+    "name": "NormalWeightC",
+    "text": "Normal weight",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "E66"
+  },
+  {
+    "name": "OverweightC",
+    "text": "Overweight",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "E66.9"
+  },
+  {
+    "name": "ExtremeObesityC",
+    "text": "Extreme obesity",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "E66"
+  },
+  {
+    "name": "BRONCHITISC",
+    "text": "Chronic bronchitis",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": ""
+  },
+  {
+    "name": "ILDC",
+    "text": "Interstitial lung disease",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": ""
+  },
+  {
+    "name": "LCC",
+    "text": "Lung cancer",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": ""
+  },
+  {
+    "name": "PFC",
+    "text": "Idiopathic pulmonary fibrosis",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": ""
+  },
+  {
+    "name": "ThyroidGoiterC",
+    "text": "Chronic thyroid goiter airway obstruction",
+    "category": "chronic"
+  },
+  {
+    "name": "NonTBMycobacteriaeC",
+    "text": "Chronic nontuberculous mycobacterial lung infection",
+    "category": "chronic"
+  },
+  {
+    "name": "HealthyC",
+    "text": "Patient seems free from chronic respiratory issues",
+    "category": "chronic"
+  },
+  {
+    "name": "CCC",
+    "text": "Colon cancer",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "C18.9"
+  },
+  {
+    "name": "EndomC",
+    "text": "Endometrial neoplasm",
+    "category": "chronic"
+  },
+  {
+    "name": "OvarianC",
+    "text": "Ovarian neoplasm",
+    "category": "chronic"
+  },
+  {
+    "name": "CervicalC",
+    "text": "Cervical neoplasm",
+    "category": "chronic"
+  },
+  {
+    "name": "EAC",
+    "text": "Esophageal achalasia",
+    "category": "chronic"
+  },
+  {
+    "name": "IDAC",
+    "text": "Iron deficiency anemia",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": "D50.9"
+  },
+  {
+    "name": "ID",
+    "text": "Iron deficiency",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "E61.1"
+  },
+  {
+    "name": "CKDAnemia",
+    "text": "Anemia related to chronic kidney disease",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "D63.1"
+  },
+  {
+    "name": "B12DAC",
+    "text": "Anemia from vitamin B12 deficiency",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "D51.9"
+  },
+  {
+    "name": "B12D",
+    "text": "Vitamin B12 deficiency",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "E53.8"
+  },
+  {
+    "name": "B12DFromLackOfIntrinsicFactor",
+    "text": "Vitamin B12 deficiency due intrinsic factor deficiency",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "E53.8"
+  },
+  {
+    "name": "FolateDAC",
+    "text": "Anemia from folate (vitamin B9) deficiency",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "D52.9"
+  },
+  {
+    "name": "FolateD",
+    "text": "Folate (vitamin B9) deficiency",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "E53.8"
+  },
+  {
+    "name": "PernDAC",
+    "text": "Pernicious anemia (anemia from b12 deficiency due to autoantibodies to intrinsic factor IF)",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "D51.0"
+  },
+  {
+    "name": "HemolyticAnemia",
+    "text": "Hemolytic anemia",
+    "category": "acute",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "D59"
+  },
+  {
+    "name": "IntenParasC",
+    "text": "Intestinal parasites",
+    "category": "chronic"
+  },
+  {
+    "name": "HepA",
+    "text": "Hepatitis A",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "B15"
+  },
+  {
+    "name": "HepCA",
+    "text": "Acute hepatitis C",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "B17.1"
+  },
+  {
+    "name": "HepBC",
+    "text": "Hepatitis B",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "B19"
+  },
+  {
+    "name": "HIVC",
+    "text": "Human immunodeficiency virus (HIV) infection",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "B20"
+  },
+  {
+    "name": "SyphilisC",
+    "text": "Syphilis",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "A53.9"
+  },
+  {
+    "name": "HemorrhoidsC",
+    "text": "Hemorrhoids - chronic",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "K64"
+  },
+  {
+    "name": "IschCoitisC",
+    "text": "Chronic ischemic colitis",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "K55.1"
+  },
+  {
+    "name": "EndometriosisC",
+    "text": "Endometriosis",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": ""
+  },
+  {
+    "name": "DepressC",
+    "text": "Depression",
+    "category": "chronic"
+  },
+  {
+    "name": "HypogonadismC",
+    "text": "Hypogonadism",
+    "category": "chronic"
+  },
+  {
+    "name": "KCC",
+    "text": "Kidney neoplasm",
+    "category": "chronic"
+  },
+  {
+    "name": "BladderCC",
+    "text": "Bladder cancer",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "C67.9"
+  },
+  {
+    "name": "StressIC",
+    "text": "Stress incontinence ",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "N39.3"
+  },
+  {
+    "name": "MixedIC",
+    "text": "Mixed incontinence ",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "N39.46"
+  },
+  {
+    "name": "UrgencyIC",
+    "text": "Urge incontinence ",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "N39.41"
+  },
+  {
+    "name": "OverflowIC",
+    "text": "Overflow incontinence ",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "N39.490"
+  },
+  {
+    "name": "UreterCC",
+    "text": "Ureter neoplasm",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": ""
+  },
+  {
+    "name": "GDS",
+    "text": "Goodpasture syndrome",
+    "category": "chronic",
+    "IsRare": true,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "M31.0"
+  },
+  {
+    "name": "AntiGBM",
+    "text": "Anti-GBM disease",
+    "category": "chronic",
+    "IsRare": true,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": ""
+  },
+  {
+    "name": "ASpondC",
+    "text": "Ankylosing spondylitis",
+    "category": "chronic"
+  },
+  {
+    "name": "SSC",
+    "text": "Spinal stenosis",
+    "category": "chronic"
+  },
+  {
+    "name": "MetasSpineC",
+    "text": "Metastatic disease to spine or bones, or primary spine or bones neoplasm",
+    "category": "chronic"
+  },
+  {
+    "name": "VascKD",
+    "text": "Kidneys' disease related to vasculitis",
+    "category": "chronic"
+  },
+  {
+    "name": "IgAKD",
+    "text": "IgA nephropathy",
+    "category": "chronic"
+  },
+  {
+    "name": "FGKD",
+    "text": "Fibrillary glomerulonephritis",
+    "category": "chronic"
+  },
+  {
+    "name": "PSKD",
+    "text": "Poststreptococcal glomerulonephritis",
+    "category": "chronic"
+  },
+  {
+    "name": "MCKD",
+    "text": "Minimal change disease",
+    "category": "chronic"
+  },
+  {
+    "name": "FSGSKD",
+    "text": "Focal segmental glomerulosclerosis",
+    "category": "chronic"
+  },
+  {
+    "name": "MPKD",
+    "text": "Membranoproliferative glomerulonephritis",
+    "category": "chronic"
+  },
+  {
+    "name": "KC",
+    "text": "Kidney cysts",
+    "category": "chronic"
+  },
+  {
+    "name": "ATN",
+    "text": "Acute tubular necrosis",
+    "category": "chronic"
+  },
+  {
+    "name": "AIN",
+    "text": "Acute interstitial nephritis",
+    "category": "chronic"
+  },
+  {
+    "name": "CSDC",
+    "text": "Cushing syndrome or disease",
+    "category": "chronic"
+  },
+  {
+    "name": "ADC",
+    "text": "Addisons disease (adrenal insufficiency)",
+    "category": "chronic"
+  },
+  {
+    "name": "PregnancyC",
+    "text": "Pregnancy",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": true,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "Z34.90"
+  },
+  {
+    "name": "BladderTumorC",
+    "text": "Bladder tumor.",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "C67.9"
+  },
+  {
+    "name": "HxOfBPHC",
+    "text": "History of Benign prostatic hypertrophy (BPH)",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": true,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "N40.1"
+  },
+  {
+    "name": "TesticC",
+    "text": "Testicular cancer",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "C62.90"
+  },
+  {
+    "name": "VaricoceleC",
+    "text": "Varicocele",
+    "category": "chronic"
+  },
+  {
+    "name": "EpididymitisC",
+    "text": "Epididymitis",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "N45.1"
+  },
+  {
+    "name": "EpiSperC",
+    "text": "Epididymal cysts or spermatocele",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": ""
+  },
+  {
+    "name": "GallStonesC",
+    "text": "Gallbladder stones (cholelithiasis)",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "K80.20"
+  },
+  {
+    "name": "IBSC",
+    "text": "Irritable bowel syndrome",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 2,
+    "ICD10": "K58.9"
+  },
+  {
+    "name": "AscariasisC",
+    "text": "Ascariasis",
+    "category": "chronic"
+  },
+  {
+    "name": "EnterobiasisC",
+    "text": "Enterobiasis (pinworm)",
+    "category": "chronic"
+  },
+  {
+    "name": "GiardiasisC",
+    "text": "Giardiasis",
+    "category": "chronic"
+  },
+  {
+    "name": "ChronsC",
+    "text": "Crohn's disease",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "K50.90"
+  },
+  {
+    "name": "HealthyAllC",
+    "text": "Patient seems free from chronic issues",
+    "category": "chronic"
+  },
+  {
+    "name": "HypoThyroC",
+    "text": "Chronic hypothyroidism",
+    "category": "chronic"
+  },
+  {
+    "name": "HyperThyroC",
+    "text": "Chronic hyperthyroidism",
+    "category": "chronic"
+  },
+  {
+    "name": "PheoC",
+    "text": "Pheochromocytoma",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": ""
+  },
+  {
+    "name": "CarcinoidC",
+    "text": "Carcinoid",
+    "category": "chronic"
+  },
+  {
+    "name": "MetSynC",
+    "text": "Metabolic syndrome",
+    "category": "chronic"
+  },
+  {
+    "name": "PDA",
+    "text": "Patent ductus arteriosus",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": ""
+  },
+  {
+    "name": "ChronicAspiration",
+    "text": "Chronic aspiration",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "Y84.4"
+  },
+  {
+    "name": "Nephrolithiasis",
+    "text": "Nephrolithiasis (kidney stones)",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "N20.0"
+  },
+  {
+    "name": "BreastCancer",
+    "text": "Breast cancer",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": true,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "C50.919"
+  },
+  {
+    "name": "ThromboembolicPulmonaryHypertensionCTEPH",
+    "text": "Thromboembolic pulmonary hypertension (CTEPH)",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "I27.24"
+  },
+  {
+    "name": "PulmonaryHTNSecondaryToLHD",
+    "text": "Pulmonary hypertension secondary to left heart disease",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "I27.22"
+  },
+  {
+    "name": "Hypercholesterolemia",
+    "text": "Hypercholesterolemia",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "E78.5"
+  },
+  {
+    "name": "PlaceHolderChronicDiagnosisAlias8ChronicDxAlias",
+    "text": "Chronic atrial fibrillation (Afib)",
+    "category": "chronic"
+  },
+  {
+    "name": "PlaceHolderChronicDiagnosisAlias9ChronicDxAlias",
+    "text": "Esophageal cancer (i.e. adenocarcinoma)",
+    "category": "chronic"
+  },
+  {
+    "name": "PlaceHolderChronicDiagnosisAlias10ChronicDxAlias",
+    "text": "Barrett's esophagus",
+    "category": "chronic"
+  },
+  {
+    "name": "PlaceHolderChronicDiagnosisAlias11ChronicDxAlias",
+    "text": "Stomach cancer (i.e. adenocarcinoma)",
+    "category": "chronic"
+  },
+  {
+    "name": "PlaceHolderChronicDiagnosisAlias12ChronicDxAlias",
+    "text": "Metastatic disease to lungs or primary lungs neoplasm",
+    "category": "chronic"
+  },
+  {
+    "name": "PlaceHolderChronicDiagnosisAlias13ChronicDxAlias",
+    "text": "Metastatic disease to brain or primary brain neoplasm",
+    "category": "chronic"
+  },
+  {
+    "name": "BladderOutletObstructionMale",
+    "text": "Below-the-bladder urinary tract obstruction.",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": true,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 3,
+    "ICD10": "N13.9"
+  },
+  {
+    "name": "BladderOutletObstructionFeMale",
+    "text": "Below-the-bladder urinary tract obstruction.",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": true,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "N13.9"
+  },
+  {
+    "name": "PlaceHolderChronicDiagnosisAlias14ChronicDxAlias",
+    "text": "Portal hypertension",
+    "category": "chronic"
+  },
+  {
+    "name": "PlaceHolderChronicDiagnosisAlias15ChronicDxAlias",
+    "text": "Cirrhosis",
+    "category": "chronic"
+  },
+  {
+    "name": "NephroticSyndrome",
+    "text": "Nephrotic syndrome",
+    "category": "chronic",
+    "IsRare": true,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "N04.9"
+  },
+  {
+    "name": "NephriticSyndrome",
+    "text": "Nephritic syndrome",
+    "category": "chronic",
+    "IsRare": true,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "N00.9"
+  },
+  {
+    "name": "MembranousNephropathy",
+    "text": "Membranous nephropathy",
+    "category": "chronic",
+    "IsRare": true,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": ""
+  },
+  {
+    "name": "PrimaryMembranousNephropathy",
+    "text": "Primary membranous nephropathy",
+    "category": "chronic",
+    "IsRare": true,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "N05.2"
+  },
+  {
+    "name": "SecondaryMembranousNephropathy",
+    "text": "Secondary membranous nephropathy",
+    "category": "chronic",
+    "IsRare": true,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": ""
+  },
+  {
+    "name": "AnemiaInMale",
+    "text": "Anemia in male",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": true,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "D64.9"
+  },
+  {
+    "name": "AnemiaInFemale",
+    "text": "Anemia in female",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": true,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "Risk": 3,
+    "ICD10": "D64.9"
+  },
+  {
+    "name": "StateOfHealth",
+    "text": "State of health, no health issues.",
+    "category": "chronic",
+    "IsRare": false,
+    "IsGenderSpecific": true,
+    "IsImmLifeThreatening": false,
+    "IsCantMiss": false,
+    "ICD10": ""
+  },
+  {
+    "name": "LegionellaPneumonia_AI",
+    "text": "Legionella pneumonia: Pneumonia caused by Legionella bacteria",
+    "category": "chronic",
+    "IsRare": true,
+    "IsGenderSpecific": false,
+    "IsImmLifeThreatening": true,
+    "IsCantMiss": true,
+    "Risk": 4,
+    "ICD10": "A48.1"
+  }
+]
