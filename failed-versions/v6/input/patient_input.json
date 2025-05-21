@@ -1,0 +1,5 @@
+{
+  "temperature": {"medium": 1},
+  "cough": {"medium": 1},
+  "fatigue": {"low": 1}
+}
