@@ -1,0 +1,6 @@
+scikit-fuzzy
+pandas
+json
+sklearn
+joblib
+preprocess
