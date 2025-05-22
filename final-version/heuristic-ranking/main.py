@@ -11,26 +11,29 @@ input_symptoms = {
     "втома": "слабкий"
 }
 
-def diagnose(symptoms_input, disease_db):
-    scores = {}
+def diagnose_probabilistic(input_symptoms, disease_data):
+    results = {}
 
-    for disease, symptom_probs in disease_db.items():
-        total_score = 0.0
-        for symptom, degree in symptoms_input.items():
-            # Якщо симптом є у хвороби
-            if symptom in symptom_probs:
-                probability = symptom_probs[symptom].get(degree, 0.0)
-                total_score += probability
-        scores[disease] = total_score
+    for disease, symptoms_info in disease_data.items():
+        matched_score = 0.0
+        max_possible_score = 0.0
 
-    # Сортуємо хвороби за зменшенням балів
-    sorted_diseases = sorted(scores.items(), key=lambda x: x[1], reverse=True)
-    return sorted_diseases
+        for symptom, degree in input_symptoms.items():
+            max_possible_score += 1.0  # Кожен введений симптом має макс бал 1
+            if symptom in symptoms_info:
+                matched_score += symptoms_info[symptom].get(degree, 0.0)
+            else:
+                matched_score += 0.0  # Симптом відсутній — 0
 
-# Виклик
-result = diagnose(input_symptoms, disease_data)
+        probability = matched_score / max_possible_score if max_possible_score > 0 else 0.0
+        results[disease] = round(probability, 3)
 
-# Вивід
+    # Сортування від найвищої ймовірності до найменшої
+    sorted_results = sorted(results.items(), key=lambda x: x[1], reverse=True)
+    return sorted_results
+
+results = diagnose_probabilistic(input_symptoms, disease_data)
+
 print("Ймовірні хвороби:")
-for disease, score in result:
-    print(f"{disease}: {score:.2f}")
+for disease, prob in results:
+    print(f"{disease}: {prob:.3f}")
