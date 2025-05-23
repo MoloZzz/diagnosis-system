@@ -1,4 +1,4 @@
-LABELS = ['Слабко виражений', 'Помірно виражений', 'Яскраво виражений']
+from constants.labels import LABELS
 
 class FuzzySymptom:
     def __init__(self, name: str, values: dict):
