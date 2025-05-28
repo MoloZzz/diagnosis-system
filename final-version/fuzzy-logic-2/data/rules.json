@@ -1,0 +1,45 @@
+{
+  "flu": {
+    "fever": "high",
+    "cough": "medium",
+    "headache": "low"
+  },
+  "covid": {
+    "fever": "high",
+    "sore_throat": "medium",
+    "cough": "high",
+    "fatigue": "medium"
+  },
+  "cold": {
+    "fever": "medium",
+    "cough": "medium",
+    "headache": "medium",
+    "sore_throat": "medium"
+  },
+  "allergy": {
+    "cough": "low",
+    "headache": "low",
+    "sore_throat": "medium"
+  },
+  "pneumonia": {
+    "fever": "high",
+    "shortness_of_breath": "high",
+    "fatigue": "high",
+    "cough": "high"
+  },
+  "bronchitis": {
+    "cough": "high",
+    "sore_throat": "low",
+    "fatigue": "medium"
+  },
+  "asthma": {
+    "shortness_of_breath": "high",
+    "cough": "medium",
+    "fatigue": "medium"
+  },
+  "sinusitis": {
+    "headache": "high",
+    "fever": "low",
+    "sore_throat": "medium"
+  }
+}
