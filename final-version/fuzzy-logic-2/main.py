@@ -4,8 +4,6 @@ patient_symptoms = {
     "fever": "medium",
     "cough": "medium",
     "headache": "medium",
-    "sore_throat": "low",
-    "fatigue": "medium"
 }
 
 if __name__ == '__main__':
