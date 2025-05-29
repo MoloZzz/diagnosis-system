@@ -1,4 +1,4 @@
-from src.fuzzy_system import run_inference
+from src import diagnose, get_symptoms, get_diseases
 
 patient_symptoms = {
     "fever": "medium",
@@ -7,7 +7,7 @@ patient_symptoms = {
 }
 
 if __name__ == '__main__':
-    results = run_inference(patient_symptoms)
+    results = diagnose(patient_symptoms)
     print("\nЙмовірність кожної хвороби:")
     for disease, val in results.items():
         print(f"  - {disease}: {val:.2f}")
