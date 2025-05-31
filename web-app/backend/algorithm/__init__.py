@@ -4,8 +4,8 @@ from .fuzzy_system import run_inference
 
 BASE_DIR = Path(__file__).resolve().parent
 
-SYMPTOMS_PATH = BASE_DIR / "../data/symptoms.json"
-DISEASES_PATH = BASE_DIR / "../data/diseases.json"
+SYMPTOMS_PATH = BASE_DIR / "data/symptoms.json"
+DISEASES_PATH = BASE_DIR / "data/diseases.json"
 
 
 def get_symptoms():
