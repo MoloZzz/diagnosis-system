@@ -5,12 +5,10 @@ app = Flask(__name__)
 
 @app.route("/symptoms", methods=["GET"])
 def symptoms():
-    print("Fetching symptoms")
     return jsonify(get_symptoms())
 
 @app.route("/diseases", methods=["GET"])
 def diseases():
-    print("Fetching diseases", get_diseases())
     return jsonify(get_diseases())
 
 @app.route("/diagnose", methods=["POST"])
