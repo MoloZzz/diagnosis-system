@@ -1,7 +1,9 @@
 from flask import Flask, request, jsonify
 from algorithm import get_symptoms, get_diseases, diagnose
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route("/symptoms", methods=["GET"])
 def symptoms():
