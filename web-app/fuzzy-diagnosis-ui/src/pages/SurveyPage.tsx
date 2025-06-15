@@ -1,14 +1,31 @@
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { getSymptoms, getDiagnosis } from "../api";
-import type { DiagnosisResult } from "../types";
 
 const SurveyPage: React.FC = () => {
-  const [allSymptoms, setAllSymptoms] = useState<string[]>([]);
+  const [allSymptoms, setSymptoms] = useState<string[]>([]);
   const [form, setForm] = useState<Record<string, string>>({});
-  const [results, setResults] = useState<DiagnosisResult | null>(null);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const navigate = useNavigate();
 
   useEffect(() => {
-    getSymptoms().then((res) => setAllSymptoms(res.data));
+    setLoading(true);
+    getSymptoms()
+      .then((res) => {
+        console.log("Symptoms loaded:", res.data);
+        setSymptoms(res.data);
+      })
+      .catch((err) => {
+        console.error("Error fetching symptoms:", err);
+        setError(
+          err.response?.data?.error ||
+          err.message === "Network Error"
+            ? "Cannot connect to the backend. Is the server running on http://localhost:5000?"
+            : `Failed to load symptoms: ${err.message}`
+        );
+      })
+      .finally(() => setLoading(false));
   }, []);
 
   const handleChange = (symptom: string, value: string) => {
@@ -20,9 +37,33 @@ const SurveyPage: React.FC = () => {
     const filtered = Object.fromEntries(
       Object.entries(form).filter(([_, v]) => v !== "")
     );
-    const res = await getDiagnosis(filtered);
-    setResults(res.data);
+    if (Object.keys(filtered).length === 0) {
+      setError("Please select at least one symptom");
+      return;
+    }
+    setLoading(true);
+    setError(null);
+    try {
+      const res = await getDiagnosis(filtered);
+      console.log("Diagnosis API response:", res.data);
+      // Save results to localStorage
+      localStorage.setItem("diagnosisResults", JSON.stringify(res.data));
+      navigate("/result", { state: { result: res.data } });
+    } catch (err: any) {
+      console.error("Diagnosis error:", err);
+      setError(err.response?.data?.error || "Failed to diagnose");
+    } finally {
+      setLoading(false);
+    }
   };
+
+  if (loading && !allSymptoms.length) {
+    return <div className="text-center py-10">Loading symptoms...</div>;
+  }
+
+  if (error && !allSymptoms.length) {
+    return <div className="text-center py-10 text-red-500">{error}</div>;
+  }
 
   return (
     <div className="min-h-screen bg-gray-50 py-10 px-4">
@@ -30,6 +71,7 @@ const SurveyPage: React.FC = () => {
         <h1 className="text-2xl font-bold text-center mb-6 flex items-center justify-center gap-2">
           <span role="img" aria-label="brain">🧠</span> Fuzzy Diagnosis
         </h1>
+        {error && <p className="text-red-500 text-sm text-center mb-4">{error}</p>}
         <form onSubmit={handleSubmit} className="space-y-4">
           {allSymptoms.map((symptom) => (
             <div key={symptom} className="flex justify-between items-center">
@@ -50,9 +92,12 @@ const SurveyPage: React.FC = () => {
           ))}
           <button
             type="submit"
-            className="w-full bg-blue-600 text-white rounded-full py-2 font-semibold hover:bg-blue-700"
+            disabled={loading}
+            className={`w-full rounded-full py-2 font-semibold text-white ${
+              loading ? "bg-blue-400 cursor-not-allowed" : "bg-blue-600 hover:bg-blue-700"
+            }`}
           >
-            Submit
+            {loading ? "Processing..." : "Complete Diagnosis"}
           </button>
         </form>
       </div>

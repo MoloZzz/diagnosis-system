@@ -3,21 +3,16 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AuthPage from "./pages/AuthPage";
 import SurveyPage from "./pages/SurveyPage";
 import ResultPage from "./pages/ResultPage";
-import type { DiagnosisResult } from "./types";
-
-const mockResult: DiagnosisResult = {
-  flu: 72,
-  covid: 56,
-  allergy: 20,
-};
+import Header from "./pages/Header";
 
 const App: React.FC = () => {
   return (
     <Router>
+      <Header />
       <Routes>
         <Route path="/" element={<AuthPage />} />
         <Route path="/survey" element={<SurveyPage />} />
-        <Route path="/result" element={<ResultPage result={mockResult} />} />
+        <Route path="/result" element={<ResultPage />} />
       </Routes>
     </Router>
   );
