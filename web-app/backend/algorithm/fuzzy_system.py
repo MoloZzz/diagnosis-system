@@ -28,6 +28,7 @@ def run_inference(inputs):
 
     results = {}
     for disease in [k for k in variable_refs if isinstance(variable_refs[k], ctrl.Consequent)]:
-        results[disease] = diagnosis.output.get(disease, 0.0)
+        value = diagnosis.output.get(disease, 0.0)
+        results[disease] = round(value, 2)
 
     return results
